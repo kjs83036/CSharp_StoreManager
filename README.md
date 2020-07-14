@@ -10,6 +10,7 @@
     5. 지출 등록, 조회, 변경, 삭제 구현
     6. 직원 등록, 조회, 변경, 삭제 구현
     7. 실적 등록, 조회, 변경, 삭제 구현
+    8. 상세내용 storeManage_detail.pdf 참고
 
 
 ![image](https://user-images.githubusercontent.com/26050767/87369703-1bd9bf00-c5bc-11ea-99ed-9bbf34f487b7.png)
