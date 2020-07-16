@@ -1,0 +1,1383 @@
+### YamlMime:ManagedReference
+items:
+- uid: StoreManage.SqlQuery
+  commentId: T:StoreManage.SqlQuery
+  id: SqlQuery
+  parent: StoreManage
+  children:
+  - StoreManage.SqlQuery.#ctor
+  - StoreManage.SqlQuery.columnsMember
+  - StoreManage.SqlQuery.columnsMemberInformation
+  - StoreManage.SqlQuery.deleteFrom_Where_(System.String,System.String)
+  - StoreManage.SqlQuery.InsertInto__Values_``1(``0)
+  - StoreManage.SqlQuery.MAX
+  - StoreManage.SqlQuery.MEMBER
+  - StoreManage.SqlQuery.MemberInformation
+  - StoreManage.SqlQuery.MIN
+  - StoreManage.SqlQuery.select_Count_From_Where_GroupBy_(System.String,System.String,System.String,System.String)
+  - StoreManage.SqlQuery.select_From_(System.String,System.String[])
+  - StoreManage.SqlQuery.select_From_Where(System.String,System.String[],System.String,System.Object[])
+  - StoreManage.SqlQuery.select_From_Where_In(System.String[],System.String,System.String,System.Object[])
+  - StoreManage.SqlQuery.select_Sum__From_Where_GroupBy_(System.String,System.String,System.String,System.String,System.String)
+  - StoreManage.SqlQuery.SelectAllFrom_(System.String)
+  - StoreManage.SqlQuery.SelectAllFrom_Where_(System.String,System.String[],System.Object[])
+  - StoreManage.SqlQuery.selectAllFrom_Where_Between_And_(System.String,System.String,System.Int32,System.Int32)
+  - StoreManage.SqlQuery.selectAllFrom_Where_In_``1(System.String,System.String,System.Collections.Generic.List{``0})
+  - StoreManage.SqlQuery.selectAllFrom_Where_Select_MINMAX_From_(System.String,System.String,System.String)
+  - StoreManage.SqlQuery.table
+  - StoreManage.SqlQuery.Update_Set_``1(System.String,``0,System.String)
+  langs:
+  - csharp
+  - vb
+  name: SqlQuery
+  nameWithType: SqlQuery
+  fullName: StoreManage.SqlQuery
+  type: Class
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: SqlQuery
+    path: CommonByKjs.cs
+    startLine: 683
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public class SqlQuery
+    content.vb: Public Class SqlQuery
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StoreManage.SqlQuery.columnsMember
+  commentId: F:StoreManage.SqlQuery.columnsMember
+  id: columnsMember
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: columnsMember
+  nameWithType: SqlQuery.columnsMember
+  fullName: StoreManage.SqlQuery.columnsMember
+  type: Field
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: columnsMember
+    path: CommonByKjs.cs
+    startLine: 688
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string[] columnsMember
+    return:
+      type: System.String[]
+    content.vb: Public columnsMember As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.SqlQuery.columnsMemberInformation
+  commentId: F:StoreManage.SqlQuery.columnsMemberInformation
+  id: columnsMemberInformation
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: columnsMemberInformation
+  nameWithType: SqlQuery.columnsMemberInformation
+  fullName: StoreManage.SqlQuery.columnsMemberInformation
+  type: Field
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: columnsMemberInformation
+    path: CommonByKjs.cs
+    startLine: 689
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string[] columnsMemberInformation
+    return:
+      type: System.String[]
+    content.vb: Public columnsMemberInformation As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.SqlQuery.table
+  commentId: F:StoreManage.SqlQuery.table
+  id: table
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: table
+  nameWithType: SqlQuery.table
+  fullName: StoreManage.SqlQuery.table
+  type: Field
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: table
+    path: CommonByKjs.cs
+    startLine: 690
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string[] table
+    return:
+      type: System.String[]
+    content.vb: Public table As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.SqlQuery.MEMBER
+  commentId: F:StoreManage.SqlQuery.MEMBER
+  id: MEMBER
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: MEMBER
+  nameWithType: SqlQuery.MEMBER
+  fullName: StoreManage.SqlQuery.MEMBER
+  type: Field
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: MEMBER
+    path: CommonByKjs.cs
+    startLine: 692
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public const int MEMBER = 0
+    return:
+      type: System.Int32
+    content.vb: Public Const MEMBER As Integer = 0
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StoreManage.SqlQuery.MemberInformation
+  commentId: F:StoreManage.SqlQuery.MemberInformation
+  id: MemberInformation
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: MemberInformation
+  nameWithType: SqlQuery.MemberInformation
+  fullName: StoreManage.SqlQuery.MemberInformation
+  type: Field
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: MemberInformation
+    path: CommonByKjs.cs
+    startLine: 693
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public const int MemberInformation = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const MemberInformation As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StoreManage.SqlQuery.MAX
+  commentId: F:StoreManage.SqlQuery.MAX
+  id: MAX
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: MAX
+  nameWithType: SqlQuery.MAX
+  fullName: StoreManage.SqlQuery.MAX
+  type: Field
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: MAX
+    path: CommonByKjs.cs
+    startLine: 695
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public const string MAX = "MAX"
+    return:
+      type: System.String
+    content.vb: Public Const MAX As String = "MAX"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StoreManage.SqlQuery.MIN
+  commentId: F:StoreManage.SqlQuery.MIN
+  id: MIN
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: MIN
+  nameWithType: SqlQuery.MIN
+  fullName: StoreManage.SqlQuery.MIN
+  type: Field
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: MIN
+    path: CommonByKjs.cs
+    startLine: 696
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public const string MIN = "MIN"
+    return:
+      type: System.String
+    content.vb: Public Const MIN As String = "MIN"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StoreManage.SqlQuery.#ctor
+  commentId: M:StoreManage.SqlQuery.#ctor
+  id: '#ctor'
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: SqlQuery()
+  nameWithType: SqlQuery.SqlQuery()
+  fullName: StoreManage.SqlQuery.SqlQuery()
+  type: Constructor
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: .ctor
+    path: CommonByKjs.cs
+    startLine: 698
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public SqlQuery()
+    content.vb: Public Sub New
+  overload: StoreManage.SqlQuery.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.SqlQuery.InsertInto__Values_``1(``0)
+  commentId: M:StoreManage.SqlQuery.InsertInto__Values_``1(``0)
+  id: InsertInto__Values_``1(``0)
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: InsertInto__Values_<T>(T)
+  nameWithType: SqlQuery.InsertInto__Values_<T>(T)
+  fullName: StoreManage.SqlQuery.InsertInto__Values_<T>(T)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: InsertInto__Values_
+    path: CommonByKjs.cs
+    startLine: 708
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string InsertInto__Values_<T>(T t)
+    parameters:
+    - id: t
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.String
+    content.vb: Public Function InsertInto__Values_(Of T)(t As T) As String
+  overload: StoreManage.SqlQuery.InsertInto__Values_*
+  nameWithType.vb: SqlQuery.InsertInto__Values_(Of T)(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.SqlQuery.InsertInto__Values_(Of T)(T)
+  name.vb: InsertInto__Values_(Of T)(T)
+- uid: StoreManage.SqlQuery.SelectAllFrom_Where_(System.String,System.String[],System.Object[])
+  commentId: M:StoreManage.SqlQuery.SelectAllFrom_Where_(System.String,System.String[],System.Object[])
+  id: SelectAllFrom_Where_(System.String,System.String[],System.Object[])
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: SelectAllFrom_Where_(String, String[], Object[])
+  nameWithType: SqlQuery.SelectAllFrom_Where_(String, String[], Object[])
+  fullName: StoreManage.SqlQuery.SelectAllFrom_Where_(System.String, System.String[], System.Object[])
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: SelectAllFrom_Where_
+    path: CommonByKjs.cs
+    startLine: 740
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string SelectAllFrom_Where_(string table, string[] columns, object[] values)
+    parameters:
+    - id: table
+      type: System.String
+    - id: columns
+      type: System.String[]
+    - id: values
+      type: System.Object[]
+    return:
+      type: System.String
+    content.vb: Public Function SelectAllFrom_Where_(table As String, columns As String(), values As Object()) As String
+  overload: StoreManage.SqlQuery.SelectAllFrom_Where_*
+  nameWithType.vb: SqlQuery.SelectAllFrom_Where_(String, String(), Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.SqlQuery.SelectAllFrom_Where_(System.String, System.String(), System.Object())
+  name.vb: SelectAllFrom_Where_(String, String(), Object())
+- uid: StoreManage.SqlQuery.SelectAllFrom_(System.String)
+  commentId: M:StoreManage.SqlQuery.SelectAllFrom_(System.String)
+  id: SelectAllFrom_(System.String)
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: SelectAllFrom_(String)
+  nameWithType: SqlQuery.SelectAllFrom_(String)
+  fullName: StoreManage.SqlQuery.SelectAllFrom_(System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: SelectAllFrom_
+    path: CommonByKjs.cs
+    startLine: 761
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string SelectAllFrom_(string table)
+    parameters:
+    - id: table
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function SelectAllFrom_(table As String) As String
+  overload: StoreManage.SqlQuery.SelectAllFrom_*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.SqlQuery.selectAllFrom_Where_In_``1(System.String,System.String,System.Collections.Generic.List{``0})
+  commentId: M:StoreManage.SqlQuery.selectAllFrom_Where_In_``1(System.String,System.String,System.Collections.Generic.List{``0})
+  id: selectAllFrom_Where_In_``1(System.String,System.String,System.Collections.Generic.List{``0})
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: selectAllFrom_Where_In_<T>(String, String, List<T>)
+  nameWithType: SqlQuery.selectAllFrom_Where_In_<T>(String, String, List<T>)
+  fullName: StoreManage.SqlQuery.selectAllFrom_Where_In_<T>(System.String, System.String, System.Collections.Generic.List<T>)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: selectAllFrom_Where_In_
+    path: CommonByKjs.cs
+    startLine: 769
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string selectAllFrom_Where_In_<T>(string table, string column, List<T> where_list)
+    parameters:
+    - id: table
+      type: System.String
+    - id: column
+      type: System.String
+    - id: where_list
+      type: System.Collections.Generic.List{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.String
+    content.vb: Public Function selectAllFrom_Where_In_(Of T)(table As String, column As String, where_list As List(Of T)) As String
+  overload: StoreManage.SqlQuery.selectAllFrom_Where_In_*
+  nameWithType.vb: SqlQuery.selectAllFrom_Where_In_(Of T)(String, String, List(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.SqlQuery.selectAllFrom_Where_In_(Of T)(System.String, System.String, System.Collections.Generic.List(Of T))
+  name.vb: selectAllFrom_Where_In_(Of T)(String, String, List(Of T))
+- uid: StoreManage.SqlQuery.selectAllFrom_Where_Select_MINMAX_From_(System.String,System.String,System.String)
+  commentId: M:StoreManage.SqlQuery.selectAllFrom_Where_Select_MINMAX_From_(System.String,System.String,System.String)
+  id: selectAllFrom_Where_Select_MINMAX_From_(System.String,System.String,System.String)
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: selectAllFrom_Where_Select_MINMAX_From_(String, String, String)
+  nameWithType: SqlQuery.selectAllFrom_Where_Select_MINMAX_From_(String, String, String)
+  fullName: StoreManage.SqlQuery.selectAllFrom_Where_Select_MINMAX_From_(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: selectAllFrom_Where_Select_MINMAX_From_
+    path: CommonByKjs.cs
+    startLine: 789
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string selectAllFrom_Where_Select_MINMAX_From_(string table, string minMax, string columnWhere)
+    parameters:
+    - id: table
+      type: System.String
+    - id: minMax
+      type: System.String
+    - id: columnWhere
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function selectAllFrom_Where_Select_MINMAX_From_(table As String, minMax As String, columnWhere As String) As String
+  overload: StoreManage.SqlQuery.selectAllFrom_Where_Select_MINMAX_From_*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.SqlQuery.selectAllFrom_Where_Between_And_(System.String,System.String,System.Int32,System.Int32)
+  commentId: M:StoreManage.SqlQuery.selectAllFrom_Where_Between_And_(System.String,System.String,System.Int32,System.Int32)
+  id: selectAllFrom_Where_Between_And_(System.String,System.String,System.Int32,System.Int32)
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: selectAllFrom_Where_Between_And_(String, String, Int32, Int32)
+  nameWithType: SqlQuery.selectAllFrom_Where_Between_And_(String, String, Int32, Int32)
+  fullName: StoreManage.SqlQuery.selectAllFrom_Where_Between_And_(System.String, System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: selectAllFrom_Where_Between_And_
+    path: CommonByKjs.cs
+    startLine: 798
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string selectAllFrom_Where_Between_And_(string table, string column, int before, int after)
+    parameters:
+    - id: table
+      type: System.String
+    - id: column
+      type: System.String
+    - id: before
+      type: System.Int32
+    - id: after
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function selectAllFrom_Where_Between_And_(table As String, column As String, before As Integer, after As Integer) As String
+  overload: StoreManage.SqlQuery.selectAllFrom_Where_Between_And_*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.SqlQuery.select_From_Where(System.String,System.String[],System.String,System.Object[])
+  commentId: M:StoreManage.SqlQuery.select_From_Where(System.String,System.String[],System.String,System.Object[])
+  id: select_From_Where(System.String,System.String[],System.String,System.Object[])
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: select_From_Where(String, String[], String, Object[])
+  nameWithType: SqlQuery.select_From_Where(String, String[], String, Object[])
+  fullName: StoreManage.SqlQuery.select_From_Where(System.String, System.String[], System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: select_From_Where
+    path: CommonByKjs.cs
+    startLine: 806
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string select_From_Where(string table, string[] columnsResult, string columnWhere, object[] values)
+    parameters:
+    - id: table
+      type: System.String
+    - id: columnsResult
+      type: System.String[]
+    - id: columnWhere
+      type: System.String
+    - id: values
+      type: System.Object[]
+    return:
+      type: System.String
+    content.vb: Public Function select_From_Where(table As String, columnsResult As String(), columnWhere As String, values As Object()) As String
+  overload: StoreManage.SqlQuery.select_From_Where*
+  nameWithType.vb: SqlQuery.select_From_Where(String, String(), String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.SqlQuery.select_From_Where(System.String, System.String(), System.String, System.Object())
+  name.vb: select_From_Where(String, String(), String, Object())
+- uid: StoreManage.SqlQuery.select_From_Where_In(System.String[],System.String,System.String,System.Object[])
+  commentId: M:StoreManage.SqlQuery.select_From_Where_In(System.String[],System.String,System.String,System.Object[])
+  id: select_From_Where_In(System.String[],System.String,System.String,System.Object[])
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: select_From_Where_In(String[], String, String, Object[])
+  nameWithType: SqlQuery.select_From_Where_In(String[], String, String, Object[])
+  fullName: StoreManage.SqlQuery.select_From_Where_In(System.String[], System.String, System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: select_From_Where_In
+    path: CommonByKjs.cs
+    startLine: 822
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string select_From_Where_In(string[] columnsResult, string table, string columnWhere, object[] values)
+    parameters:
+    - id: columnsResult
+      type: System.String[]
+    - id: table
+      type: System.String
+    - id: columnWhere
+      type: System.String
+    - id: values
+      type: System.Object[]
+    return:
+      type: System.String
+    content.vb: Public Function select_From_Where_In(columnsResult As String(), table As String, columnWhere As String, values As Object()) As String
+  overload: StoreManage.SqlQuery.select_From_Where_In*
+  nameWithType.vb: SqlQuery.select_From_Where_In(String(), String, String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.SqlQuery.select_From_Where_In(System.String(), System.String, System.String, System.Object())
+  name.vb: select_From_Where_In(String(), String, String, Object())
+- uid: StoreManage.SqlQuery.select_Count_From_Where_GroupBy_(System.String,System.String,System.String,System.String)
+  commentId: M:StoreManage.SqlQuery.select_Count_From_Where_GroupBy_(System.String,System.String,System.String,System.String)
+  id: select_Count_From_Where_GroupBy_(System.String,System.String,System.String,System.String)
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: select_Count_From_Where_GroupBy_(String, String, String, String)
+  nameWithType: SqlQuery.select_Count_From_Where_GroupBy_(String, String, String, String)
+  fullName: StoreManage.SqlQuery.select_Count_From_Where_GroupBy_(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: select_Count_From_Where_GroupBy_
+    path: CommonByKjs.cs
+    startLine: 849
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string select_Count_From_Where_GroupBy_(string table, string whereColumn, string value, string column)
+    parameters:
+    - id: table
+      type: System.String
+    - id: whereColumn
+      type: System.String
+    - id: value
+      type: System.String
+    - id: column
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function select_Count_From_Where_GroupBy_(table As String, whereColumn As String, value As String, column As String) As String
+  overload: StoreManage.SqlQuery.select_Count_From_Where_GroupBy_*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.SqlQuery.select_Sum__From_Where_GroupBy_(System.String,System.String,System.String,System.String,System.String)
+  commentId: M:StoreManage.SqlQuery.select_Sum__From_Where_GroupBy_(System.String,System.String,System.String,System.String,System.String)
+  id: select_Sum__From_Where_GroupBy_(System.String,System.String,System.String,System.String,System.String)
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: select_Sum__From_Where_GroupBy_(String, String, String, String, String)
+  nameWithType: SqlQuery.select_Sum__From_Where_GroupBy_(String, String, String, String, String)
+  fullName: StoreManage.SqlQuery.select_Sum__From_Where_GroupBy_(System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: select_Sum__From_Where_GroupBy_
+    path: CommonByKjs.cs
+    startLine: 859
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string select_Sum__From_Where_GroupBy_(string columnResult, string table, string whereColumn, string value, string columnGroupBy)
+    parameters:
+    - id: columnResult
+      type: System.String
+    - id: table
+      type: System.String
+    - id: whereColumn
+      type: System.String
+    - id: value
+      type: System.String
+    - id: columnGroupBy
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function select_Sum__From_Where_GroupBy_(columnResult As String, table As String, whereColumn As String, value As String, columnGroupBy As String) As String
+  overload: StoreManage.SqlQuery.select_Sum__From_Where_GroupBy_*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.SqlQuery.select_From_(System.String,System.String[])
+  commentId: M:StoreManage.SqlQuery.select_From_(System.String,System.String[])
+  id: select_From_(System.String,System.String[])
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: select_From_(String, String[])
+  nameWithType: SqlQuery.select_From_(String, String[])
+  fullName: StoreManage.SqlQuery.select_From_(System.String, System.String[])
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: select_From_
+    path: CommonByKjs.cs
+    startLine: 867
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string select_From_(string table, string[] columnResult)
+    parameters:
+    - id: table
+      type: System.String
+    - id: columnResult
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: Public Function select_From_(table As String, columnResult As String()) As String
+  overload: StoreManage.SqlQuery.select_From_*
+  nameWithType.vb: SqlQuery.select_From_(String, String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.SqlQuery.select_From_(System.String, System.String())
+  name.vb: select_From_(String, String())
+- uid: StoreManage.SqlQuery.Update_Set_``1(System.String,``0,System.String)
+  commentId: M:StoreManage.SqlQuery.Update_Set_``1(System.String,``0,System.String)
+  id: Update_Set_``1(System.String,``0,System.String)
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: Update_Set_<T>(String, T, String)
+  nameWithType: SqlQuery.Update_Set_<T>(String, T, String)
+  fullName: StoreManage.SqlQuery.Update_Set_<T>(System.String, T, System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: Update_Set_
+    path: CommonByKjs.cs
+    startLine: 883
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string Update_Set_<T>(string table, T t, string columnWhere)
+    parameters:
+    - id: table
+      type: System.String
+    - id: t
+      type: '{T}'
+    - id: columnWhere
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: System.String
+    content.vb: Public Function Update_Set_(Of T)(table As String, t As T, columnWhere As String) As String
+  overload: StoreManage.SqlQuery.Update_Set_*
+  nameWithType.vb: SqlQuery.Update_Set_(Of T)(String, T, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.SqlQuery.Update_Set_(Of T)(System.String, T, System.String)
+  name.vb: Update_Set_(Of T)(String, T, String)
+- uid: StoreManage.SqlQuery.deleteFrom_Where_(System.String,System.String)
+  commentId: M:StoreManage.SqlQuery.deleteFrom_Where_(System.String,System.String)
+  id: deleteFrom_Where_(System.String,System.String)
+  parent: StoreManage.SqlQuery
+  langs:
+  - csharp
+  - vb
+  name: deleteFrom_Where_(String, String)
+  nameWithType: SqlQuery.deleteFrom_Where_(String, String)
+  fullName: StoreManage.SqlQuery.deleteFrom_Where_(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: deleteFrom_Where_
+    path: CommonByKjs.cs
+    startLine: 909
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string deleteFrom_Where_(string table, string column)
+    parameters:
+    - id: table
+      type: System.String
+    - id: column
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function deleteFrom_Where_(table As String, column As String) As String
+  overload: StoreManage.SqlQuery.deleteFrom_Where_*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: StoreManage
+  commentId: N:StoreManage
+  name: StoreManage
+  nameWithType: StoreManage
+  fullName: StoreManage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StoreManage.SqlQuery.#ctor*
+  commentId: Overload:StoreManage.SqlQuery.#ctor
+  name: SqlQuery
+  nameWithType: SqlQuery.SqlQuery
+  fullName: StoreManage.SqlQuery.SqlQuery
+- uid: StoreManage.SqlQuery.InsertInto__Values_*
+  commentId: Overload:StoreManage.SqlQuery.InsertInto__Values_
+  name: InsertInto__Values_
+  nameWithType: SqlQuery.InsertInto__Values_
+  fullName: StoreManage.SqlQuery.InsertInto__Values_
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: StoreManage.SqlQuery.SelectAllFrom_Where_*
+  commentId: Overload:StoreManage.SqlQuery.SelectAllFrom_Where_
+  name: SelectAllFrom_Where_
+  nameWithType: SqlQuery.SelectAllFrom_Where_
+  fullName: StoreManage.SqlQuery.SelectAllFrom_Where_
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: StoreManage.SqlQuery.SelectAllFrom_*
+  commentId: Overload:StoreManage.SqlQuery.SelectAllFrom_
+  name: SelectAllFrom_
+  nameWithType: SqlQuery.SelectAllFrom_
+  fullName: StoreManage.SqlQuery.SelectAllFrom_
+- uid: StoreManage.SqlQuery.selectAllFrom_Where_In_*
+  commentId: Overload:StoreManage.SqlQuery.selectAllFrom_Where_In_
+  name: selectAllFrom_Where_In_
+  nameWithType: SqlQuery.selectAllFrom_Where_In_
+  fullName: StoreManage.SqlQuery.selectAllFrom_Where_In_
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: StoreManage.SqlQuery.selectAllFrom_Where_Select_MINMAX_From_*
+  commentId: Overload:StoreManage.SqlQuery.selectAllFrom_Where_Select_MINMAX_From_
+  name: selectAllFrom_Where_Select_MINMAX_From_
+  nameWithType: SqlQuery.selectAllFrom_Where_Select_MINMAX_From_
+  fullName: StoreManage.SqlQuery.selectAllFrom_Where_Select_MINMAX_From_
+- uid: StoreManage.SqlQuery.selectAllFrom_Where_Between_And_*
+  commentId: Overload:StoreManage.SqlQuery.selectAllFrom_Where_Between_And_
+  name: selectAllFrom_Where_Between_And_
+  nameWithType: SqlQuery.selectAllFrom_Where_Between_And_
+  fullName: StoreManage.SqlQuery.selectAllFrom_Where_Between_And_
+- uid: StoreManage.SqlQuery.select_From_Where*
+  commentId: Overload:StoreManage.SqlQuery.select_From_Where
+  name: select_From_Where
+  nameWithType: SqlQuery.select_From_Where
+  fullName: StoreManage.SqlQuery.select_From_Where
+- uid: StoreManage.SqlQuery.select_From_Where_In*
+  commentId: Overload:StoreManage.SqlQuery.select_From_Where_In
+  name: select_From_Where_In
+  nameWithType: SqlQuery.select_From_Where_In
+  fullName: StoreManage.SqlQuery.select_From_Where_In
+- uid: StoreManage.SqlQuery.select_Count_From_Where_GroupBy_*
+  commentId: Overload:StoreManage.SqlQuery.select_Count_From_Where_GroupBy_
+  name: select_Count_From_Where_GroupBy_
+  nameWithType: SqlQuery.select_Count_From_Where_GroupBy_
+  fullName: StoreManage.SqlQuery.select_Count_From_Where_GroupBy_
+- uid: StoreManage.SqlQuery.select_Sum__From_Where_GroupBy_*
+  commentId: Overload:StoreManage.SqlQuery.select_Sum__From_Where_GroupBy_
+  name: select_Sum__From_Where_GroupBy_
+  nameWithType: SqlQuery.select_Sum__From_Where_GroupBy_
+  fullName: StoreManage.SqlQuery.select_Sum__From_Where_GroupBy_
+- uid: StoreManage.SqlQuery.select_From_*
+  commentId: Overload:StoreManage.SqlQuery.select_From_
+  name: select_From_
+  nameWithType: SqlQuery.select_From_
+  fullName: StoreManage.SqlQuery.select_From_
+- uid: StoreManage.SqlQuery.Update_Set_*
+  commentId: Overload:StoreManage.SqlQuery.Update_Set_
+  name: Update_Set_
+  nameWithType: SqlQuery.Update_Set_
+  fullName: StoreManage.SqlQuery.Update_Set_
+- uid: StoreManage.SqlQuery.deleteFrom_Where_*
+  commentId: Overload:StoreManage.SqlQuery.deleteFrom_Where_
+  name: deleteFrom_Where_
+  nameWithType: SqlQuery.deleteFrom_Where_
+  fullName: StoreManage.SqlQuery.deleteFrom_Where_

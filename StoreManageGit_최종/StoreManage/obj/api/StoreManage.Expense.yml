@@ -1,0 +1,807 @@
+### YamlMime:ManagedReference
+items:
+- uid: StoreManage.Expense
+  commentId: T:StoreManage.Expense
+  id: Expense
+  parent: StoreManage
+  children:
+  - StoreManage.Expense.st_code
+  - StoreManage.Expense.st_exp_acce
+  - StoreManage.Expense.st_exp_ad
+  - StoreManage.Expense.st_exp_arti
+  - StoreManage.Expense.st_exp_basic
+  - StoreManage.Expense.st_exp_cons
+  - StoreManage.Expense.st_exp_coupon
+  - StoreManage.Expense.st_exp_date
+  - StoreManage.Expense.st_exp_name
+  - StoreManage.Expense.st_exp_quick
+  - StoreManage.Expense.st_member_code
+  langs:
+  - csharp
+  - vb
+  name: Expense
+  nameWithType: Expense
+  fullName: StoreManage.Expense
+  type: Class
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: Expense
+    path: CommonByKjs.cs
+    startLine: 48
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public class Expense
+    content.vb: Public Class Expense
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StoreManage.Expense.st_code
+  commentId: P:StoreManage.Expense.st_code
+  id: st_code
+  parent: StoreManage.Expense
+  langs:
+  - csharp
+  - vb
+  name: st_code
+  nameWithType: Expense.st_code
+  fullName: StoreManage.Expense.st_code
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_code
+    path: CommonByKjs.cs
+    startLine: 51
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_code As String
+  overload: StoreManage.Expense.st_code*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Expense.st_exp_date
+  commentId: P:StoreManage.Expense.st_exp_date
+  id: st_exp_date
+  parent: StoreManage.Expense
+  langs:
+  - csharp
+  - vb
+  name: st_exp_date
+  nameWithType: Expense.st_exp_date
+  fullName: StoreManage.Expense.st_exp_date
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_exp_date
+    path: CommonByKjs.cs
+    startLine: 53
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DateTime st_exp_date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property st_exp_date As Date
+  overload: StoreManage.Expense.st_exp_date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Expense.st_member_code
+  commentId: P:StoreManage.Expense.st_member_code
+  id: st_member_code
+  parent: StoreManage.Expense
+  langs:
+  - csharp
+  - vb
+  name: st_member_code
+  nameWithType: Expense.st_member_code
+  fullName: StoreManage.Expense.st_member_code
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_member_code
+    path: CommonByKjs.cs
+    startLine: 55
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_member_code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_member_code As String
+  overload: StoreManage.Expense.st_member_code*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Expense.st_exp_name
+  commentId: P:StoreManage.Expense.st_exp_name
+  id: st_exp_name
+  parent: StoreManage.Expense
+  langs:
+  - csharp
+  - vb
+  name: st_exp_name
+  nameWithType: Expense.st_exp_name
+  fullName: StoreManage.Expense.st_exp_name
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_exp_name
+    path: CommonByKjs.cs
+    startLine: 57
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_exp_name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_exp_name As String
+  overload: StoreManage.Expense.st_exp_name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Expense.st_exp_basic
+  commentId: P:StoreManage.Expense.st_exp_basic
+  id: st_exp_basic
+  parent: StoreManage.Expense
+  langs:
+  - csharp
+  - vb
+  name: st_exp_basic
+  nameWithType: Expense.st_exp_basic
+  fullName: StoreManage.Expense.st_exp_basic
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_exp_basic
+    path: CommonByKjs.cs
+    startLine: 59
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_exp_basic { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_exp_basic As String
+  overload: StoreManage.Expense.st_exp_basic*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Expense.st_exp_coupon
+  commentId: P:StoreManage.Expense.st_exp_coupon
+  id: st_exp_coupon
+  parent: StoreManage.Expense
+  langs:
+  - csharp
+  - vb
+  name: st_exp_coupon
+  nameWithType: Expense.st_exp_coupon
+  fullName: StoreManage.Expense.st_exp_coupon
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_exp_coupon
+    path: CommonByKjs.cs
+    startLine: 61
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_exp_coupon { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_exp_coupon As String
+  overload: StoreManage.Expense.st_exp_coupon*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Expense.st_exp_ad
+  commentId: P:StoreManage.Expense.st_exp_ad
+  id: st_exp_ad
+  parent: StoreManage.Expense
+  langs:
+  - csharp
+  - vb
+  name: st_exp_ad
+  nameWithType: Expense.st_exp_ad
+  fullName: StoreManage.Expense.st_exp_ad
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_exp_ad
+    path: CommonByKjs.cs
+    startLine: 63
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_exp_ad { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_exp_ad As String
+  overload: StoreManage.Expense.st_exp_ad*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Expense.st_exp_acce
+  commentId: P:StoreManage.Expense.st_exp_acce
+  id: st_exp_acce
+  parent: StoreManage.Expense
+  langs:
+  - csharp
+  - vb
+  name: st_exp_acce
+  nameWithType: Expense.st_exp_acce
+  fullName: StoreManage.Expense.st_exp_acce
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_exp_acce
+    path: CommonByKjs.cs
+    startLine: 65
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_exp_acce { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_exp_acce As String
+  overload: StoreManage.Expense.st_exp_acce*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Expense.st_exp_quick
+  commentId: P:StoreManage.Expense.st_exp_quick
+  id: st_exp_quick
+  parent: StoreManage.Expense
+  langs:
+  - csharp
+  - vb
+  name: st_exp_quick
+  nameWithType: Expense.st_exp_quick
+  fullName: StoreManage.Expense.st_exp_quick
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_exp_quick
+    path: CommonByKjs.cs
+    startLine: 67
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_exp_quick { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_exp_quick As String
+  overload: StoreManage.Expense.st_exp_quick*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Expense.st_exp_cons
+  commentId: P:StoreManage.Expense.st_exp_cons
+  id: st_exp_cons
+  parent: StoreManage.Expense
+  langs:
+  - csharp
+  - vb
+  name: st_exp_cons
+  nameWithType: Expense.st_exp_cons
+  fullName: StoreManage.Expense.st_exp_cons
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_exp_cons
+    path: CommonByKjs.cs
+    startLine: 69
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_exp_cons { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_exp_cons As String
+  overload: StoreManage.Expense.st_exp_cons*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Expense.st_exp_arti
+  commentId: P:StoreManage.Expense.st_exp_arti
+  id: st_exp_arti
+  parent: StoreManage.Expense
+  langs:
+  - csharp
+  - vb
+  name: st_exp_arti
+  nameWithType: Expense.st_exp_arti
+  fullName: StoreManage.Expense.st_exp_arti
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_exp_arti
+    path: CommonByKjs.cs
+    startLine: 71
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_exp_arti { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_exp_arti As String
+  overload: StoreManage.Expense.st_exp_arti*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: StoreManage
+  commentId: N:StoreManage
+  name: StoreManage
+  nameWithType: StoreManage
+  fullName: StoreManage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StoreManage.Expense.st_code*
+  commentId: Overload:StoreManage.Expense.st_code
+  name: st_code
+  nameWithType: Expense.st_code
+  fullName: StoreManage.Expense.st_code
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StoreManage.Expense.st_exp_date*
+  commentId: Overload:StoreManage.Expense.st_exp_date
+  name: st_exp_date
+  nameWithType: Expense.st_exp_date
+  fullName: StoreManage.Expense.st_exp_date
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: StoreManage.Expense.st_member_code*
+  commentId: Overload:StoreManage.Expense.st_member_code
+  name: st_member_code
+  nameWithType: Expense.st_member_code
+  fullName: StoreManage.Expense.st_member_code
+- uid: StoreManage.Expense.st_exp_name*
+  commentId: Overload:StoreManage.Expense.st_exp_name
+  name: st_exp_name
+  nameWithType: Expense.st_exp_name
+  fullName: StoreManage.Expense.st_exp_name
+- uid: StoreManage.Expense.st_exp_basic*
+  commentId: Overload:StoreManage.Expense.st_exp_basic
+  name: st_exp_basic
+  nameWithType: Expense.st_exp_basic
+  fullName: StoreManage.Expense.st_exp_basic
+- uid: StoreManage.Expense.st_exp_coupon*
+  commentId: Overload:StoreManage.Expense.st_exp_coupon
+  name: st_exp_coupon
+  nameWithType: Expense.st_exp_coupon
+  fullName: StoreManage.Expense.st_exp_coupon
+- uid: StoreManage.Expense.st_exp_ad*
+  commentId: Overload:StoreManage.Expense.st_exp_ad
+  name: st_exp_ad
+  nameWithType: Expense.st_exp_ad
+  fullName: StoreManage.Expense.st_exp_ad
+- uid: StoreManage.Expense.st_exp_acce*
+  commentId: Overload:StoreManage.Expense.st_exp_acce
+  name: st_exp_acce
+  nameWithType: Expense.st_exp_acce
+  fullName: StoreManage.Expense.st_exp_acce
+- uid: StoreManage.Expense.st_exp_quick*
+  commentId: Overload:StoreManage.Expense.st_exp_quick
+  name: st_exp_quick
+  nameWithType: Expense.st_exp_quick
+  fullName: StoreManage.Expense.st_exp_quick
+- uid: StoreManage.Expense.st_exp_cons*
+  commentId: Overload:StoreManage.Expense.st_exp_cons
+  name: st_exp_cons
+  nameWithType: Expense.st_exp_cons
+  fullName: StoreManage.Expense.st_exp_cons
+- uid: StoreManage.Expense.st_exp_arti*
+  commentId: Overload:StoreManage.Expense.st_exp_arti
+  name: st_exp_arti
+  nameWithType: Expense.st_exp_arti
+  fullName: StoreManage.Expense.st_exp_arti

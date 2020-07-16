@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: StoreManage.DbFactory
+  commentId: T:StoreManage.DbFactory
+  id: DbFactory
+  parent: StoreManage
+  children:
+  - StoreManage.DbFactory.#ctor(System.String)
+  - StoreManage.DbFactory.Item(System.String)
+  - StoreManage.DbFactory.MSDB
+  - StoreManage.DbFactory.MysqlDB
+  - StoreManage.DbFactory.OracleDB
+  langs:
+  - csharp
+  - vb
+  name: DbFactory
+  nameWithType: DbFactory
+  fullName: StoreManage.DbFactory
+  type: Class
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: DbFactory
+    path: CommonByKjs.cs
+    startLine: 975
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public class DbFactory
+    content.vb: Public Class DbFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StoreManage.DbFactory.MSDB
+  commentId: F:StoreManage.DbFactory.MSDB
+  id: MSDB
+  parent: StoreManage.DbFactory
+  langs:
+  - csharp
+  - vb
+  name: MSDB
+  nameWithType: DbFactory.MSDB
+  fullName: StoreManage.DbFactory.MSDB
+  type: Field
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: MSDB
+    path: CommonByKjs.cs
+    startLine: 977
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public const string MSDB = "Ms"
+    return:
+      type: System.String
+    content.vb: Public Const MSDB As String = "Ms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StoreManage.DbFactory.OracleDB
+  commentId: F:StoreManage.DbFactory.OracleDB
+  id: OracleDB
+  parent: StoreManage.DbFactory
+  langs:
+  - csharp
+  - vb
+  name: OracleDB
+  nameWithType: DbFactory.OracleDB
+  fullName: StoreManage.DbFactory.OracleDB
+  type: Field
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: OracleDB
+    path: CommonByKjs.cs
+    startLine: 978
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public const string OracleDB = "Oracle"
+    return:
+      type: System.String
+    content.vb: Public Const OracleDB As String = "Oracle"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StoreManage.DbFactory.MysqlDB
+  commentId: F:StoreManage.DbFactory.MysqlDB
+  id: MysqlDB
+  parent: StoreManage.DbFactory
+  langs:
+  - csharp
+  - vb
+  name: MysqlDB
+  nameWithType: DbFactory.MysqlDB
+  fullName: StoreManage.DbFactory.MysqlDB
+  type: Field
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: MysqlDB
+    path: CommonByKjs.cs
+    startLine: 979
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public const string MysqlDB = "Mysql"
+    return:
+      type: System.String
+    content.vb: Public Const MysqlDB As String = "Mysql"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StoreManage.DbFactory.#ctor(System.String)
+  commentId: M:StoreManage.DbFactory.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: StoreManage.DbFactory
+  langs:
+  - csharp
+  - vb
+  name: DbFactory(String)
+  nameWithType: DbFactory.DbFactory(String)
+  fullName: StoreManage.DbFactory.DbFactory(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: .ctor
+    path: CommonByKjs.cs
+    startLine: 984
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DbFactory(string connectionString)
+    parameters:
+    - id: connectionString
+      type: System.String
+    content.vb: Public Sub New(connectionString As String)
+  overload: StoreManage.DbFactory.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.DbFactory.Item(System.String)
+  commentId: P:StoreManage.DbFactory.Item(System.String)
+  id: Item(System.String)
+  parent: StoreManage.DbFactory
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: DbFactory.Item[String]
+  fullName: StoreManage.DbFactory.Item[System.String]
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: this[]
+    path: CommonByKjs.cs
+    startLine: 992
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public Tuple<object, object> this[string s] { get; }
+    parameters:
+    - id: s
+      type: System.String
+    return:
+      type: System.Tuple{System.Object,System.Object}
+    content.vb: Public ReadOnly Property Item(s As String) As Tuple(Of Object, Object)
+  overload: StoreManage.DbFactory.Item*
+  nameWithType.vb: DbFactory.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: StoreManage.DbFactory.Item(System.String)
+  name.vb: Item(String)
+references:
+- uid: StoreManage
+  commentId: N:StoreManage
+  name: StoreManage
+  nameWithType: StoreManage
+  fullName: StoreManage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StoreManage.DbFactory.#ctor*
+  commentId: Overload:StoreManage.DbFactory.#ctor
+  name: DbFactory
+  nameWithType: DbFactory.DbFactory
+  fullName: StoreManage.DbFactory.DbFactory
+- uid: StoreManage.DbFactory.Item*
+  commentId: Overload:StoreManage.DbFactory.Item
+  name: Item
+  nameWithType: DbFactory.Item
+  fullName: StoreManage.DbFactory.Item
+- uid: System.Tuple{System.Object,System.Object}
+  commentId: T:System.Tuple{System.Object,System.Object}
+  parent: System
+  definition: System.Tuple`2
+  name: Tuple<Object, Object>
+  nameWithType: Tuple<Object, Object>
+  fullName: System.Tuple<System.Object, System.Object>
+  nameWithType.vb: Tuple(Of Object, Object)
+  fullName.vb: System.Tuple(Of System.Object, System.Object)
+  name.vb: Tuple(Of Object, Object)
+  spec.csharp:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Tuple`2
+  commentId: T:System.Tuple`2
+  isExternal: true
+  name: Tuple<T1, T2>
+  nameWithType: Tuple<T1, T2>
+  fullName: System.Tuple<T1, T2>
+  nameWithType.vb: Tuple(Of T1, T2)
+  fullName.vb: System.Tuple(Of T1, T2)
+  name.vb: Tuple(Of T1, T2)
+  spec.csharp:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )

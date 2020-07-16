@@ -1,0 +1,1996 @@
+### YamlMime:ManagedReference
+items:
+- uid: StoreManage.St_emp_result
+  commentId: T:StoreManage.St_emp_result
+  id: St_emp_result
+  parent: StoreManage
+  children:
+  - StoreManage.St_emp_result.add_policy
+  - StoreManage.St_emp_result.addition_service
+  - StoreManage.St_emp_result.after_tax_price
+  - StoreManage.St_emp_result.agent
+  - StoreManage.St_emp_result.agent_code
+  - StoreManage.St_emp_result.card
+  - StoreManage.St_emp_result.card_sale_price
+  - StoreManage.St_emp_result.cash
+  - StoreManage.St_emp_result.cash_sale_price
+  - StoreManage.St_emp_result.due_date
+  - StoreManage.St_emp_result.etc_offset
+  - StoreManage.St_emp_result.installment_price
+  - StoreManage.St_emp_result.insurance_YN
+  - StoreManage.St_emp_result.late_payment_usim
+  - StoreManage.St_emp_result.mnp_commission
+  - StoreManage.St_emp_result.net_rebate
+  - StoreManage.St_emp_result.note
+  - StoreManage.St_emp_result.prepayments
+  - StoreManage.St_emp_result.prepayments_usim
+  - StoreManage.St_emp_result.price_plan
+  - StoreManage.St_emp_result.profit_margin
+  - StoreManage.St_emp_result.release_price
+  - StoreManage.St_emp_result.result_date
+  - StoreManage.St_emp_result.result_open_date
+  - StoreManage.St_emp_result.result_open_m_date
+  - StoreManage.St_emp_result.result_ph_m
+  - StoreManage.St_emp_result.result_policy
+  - StoreManage.St_emp_result.result_serial_number
+  - StoreManage.St_emp_result.send_price
+  - StoreManage.St_emp_result.sound_policy
+  - StoreManage.St_emp_result.st_code
+  - StoreManage.St_emp_result.st_emp_code
+  - StoreManage.St_emp_result.subsidy_price
+  - StoreManage.St_emp_result.user_agree_type
+  - StoreManage.St_emp_result.user_calculate
+  - StoreManage.St_emp_result.user_code
+  - StoreManage.St_emp_result.user_open_number
+  - StoreManage.St_emp_result.user_open_type
+  - StoreManage.St_emp_result.user_previous_com
+  - StoreManage.St_emp_result.user_pur_type
+  langs:
+  - csharp
+  - vb
+  name: St_emp_result
+  nameWithType: St_emp_result
+  fullName: StoreManage.St_emp_result
+  type: Class
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_emp_result
+    path: CommonByKjs.cs
+    startLine: 167
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public class St_emp_result
+    content.vb: Public Class St_emp_result
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StoreManage.St_emp_result.st_emp_code
+  commentId: P:StoreManage.St_emp_result.st_emp_code
+  id: st_emp_code
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: st_emp_code
+  nameWithType: St_emp_result.st_emp_code
+  fullName: StoreManage.St_emp_result.st_emp_code
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_code
+    path: CommonByKjs.cs
+    startLine: 170
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_emp_code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_emp_code As String
+  overload: StoreManage.St_emp_result.st_emp_code*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.st_code
+  commentId: P:StoreManage.St_emp_result.st_code
+  id: st_code
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: st_code
+  nameWithType: St_emp_result.st_code
+  fullName: StoreManage.St_emp_result.st_code
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_code
+    path: CommonByKjs.cs
+    startLine: 172
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_code As String
+  overload: StoreManage.St_emp_result.st_code*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.result_date
+  commentId: P:StoreManage.St_emp_result.result_date
+  id: result_date
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: result_date
+  nameWithType: St_emp_result.result_date
+  fullName: StoreManage.St_emp_result.result_date
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: result_date
+    path: CommonByKjs.cs
+    startLine: 174
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DateTime result_date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property result_date As Date
+  overload: StoreManage.St_emp_result.result_date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.result_open_date
+  commentId: P:StoreManage.St_emp_result.result_open_date
+  id: result_open_date
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: result_open_date
+  nameWithType: St_emp_result.result_open_date
+  fullName: StoreManage.St_emp_result.result_open_date
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: result_open_date
+    path: CommonByKjs.cs
+    startLine: 176
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DateTime result_open_date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property result_open_date As Date
+  overload: StoreManage.St_emp_result.result_open_date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.result_open_m_date
+  commentId: P:StoreManage.St_emp_result.result_open_m_date
+  id: result_open_m_date
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: result_open_m_date
+  nameWithType: St_emp_result.result_open_m_date
+  fullName: StoreManage.St_emp_result.result_open_m_date
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: result_open_m_date
+    path: CommonByKjs.cs
+    startLine: 178
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DateTime result_open_m_date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property result_open_m_date As Date
+  overload: StoreManage.St_emp_result.result_open_m_date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.result_policy
+  commentId: P:StoreManage.St_emp_result.result_policy
+  id: result_policy
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: result_policy
+  nameWithType: St_emp_result.result_policy
+  fullName: StoreManage.St_emp_result.result_policy
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: result_policy
+    path: CommonByKjs.cs
+    startLine: 180
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string result_policy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property result_policy As String
+  overload: StoreManage.St_emp_result.result_policy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.agent_code
+  commentId: P:StoreManage.St_emp_result.agent_code
+  id: agent_code
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: agent_code
+  nameWithType: St_emp_result.agent_code
+  fullName: StoreManage.St_emp_result.agent_code
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: agent_code
+    path: CommonByKjs.cs
+    startLine: 182
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string agent_code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property agent_code As String
+  overload: StoreManage.St_emp_result.agent_code*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.result_ph_m
+  commentId: P:StoreManage.St_emp_result.result_ph_m
+  id: result_ph_m
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: result_ph_m
+  nameWithType: St_emp_result.result_ph_m
+  fullName: StoreManage.St_emp_result.result_ph_m
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: result_ph_m
+    path: CommonByKjs.cs
+    startLine: 184
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string result_ph_m { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property result_ph_m As String
+  overload: StoreManage.St_emp_result.result_ph_m*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.result_serial_number
+  commentId: P:StoreManage.St_emp_result.result_serial_number
+  id: result_serial_number
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: result_serial_number
+  nameWithType: St_emp_result.result_serial_number
+  fullName: StoreManage.St_emp_result.result_serial_number
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: result_serial_number
+    path: CommonByKjs.cs
+    startLine: 186
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string result_serial_number { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property result_serial_number As String
+  overload: StoreManage.St_emp_result.result_serial_number*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.user_code
+  commentId: P:StoreManage.St_emp_result.user_code
+  id: user_code
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: user_code
+  nameWithType: St_emp_result.user_code
+  fullName: StoreManage.St_emp_result.user_code
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: user_code
+    path: CommonByKjs.cs
+    startLine: 188
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string user_code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property user_code As String
+  overload: StoreManage.St_emp_result.user_code*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.user_open_number
+  commentId: P:StoreManage.St_emp_result.user_open_number
+  id: user_open_number
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: user_open_number
+  nameWithType: St_emp_result.user_open_number
+  fullName: StoreManage.St_emp_result.user_open_number
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: user_open_number
+    path: CommonByKjs.cs
+    startLine: 190
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string user_open_number { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property user_open_number As String
+  overload: StoreManage.St_emp_result.user_open_number*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.user_agree_type
+  commentId: P:StoreManage.St_emp_result.user_agree_type
+  id: user_agree_type
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: user_agree_type
+  nameWithType: St_emp_result.user_agree_type
+  fullName: StoreManage.St_emp_result.user_agree_type
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: user_agree_type
+    path: CommonByKjs.cs
+    startLine: 192
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string user_agree_type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property user_agree_type As String
+  overload: StoreManage.St_emp_result.user_agree_type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.user_open_type
+  commentId: P:StoreManage.St_emp_result.user_open_type
+  id: user_open_type
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: user_open_type
+  nameWithType: St_emp_result.user_open_type
+  fullName: StoreManage.St_emp_result.user_open_type
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: user_open_type
+    path: CommonByKjs.cs
+    startLine: 194
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string user_open_type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property user_open_type As String
+  overload: StoreManage.St_emp_result.user_open_type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.user_previous_com
+  commentId: P:StoreManage.St_emp_result.user_previous_com
+  id: user_previous_com
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: user_previous_com
+  nameWithType: St_emp_result.user_previous_com
+  fullName: StoreManage.St_emp_result.user_previous_com
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: user_previous_com
+    path: CommonByKjs.cs
+    startLine: 196
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string user_previous_com { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property user_previous_com As String
+  overload: StoreManage.St_emp_result.user_previous_com*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.user_pur_type
+  commentId: P:StoreManage.St_emp_result.user_pur_type
+  id: user_pur_type
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: user_pur_type
+  nameWithType: St_emp_result.user_pur_type
+  fullName: StoreManage.St_emp_result.user_pur_type
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: user_pur_type
+    path: CommonByKjs.cs
+    startLine: 198
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string user_pur_type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property user_pur_type As String
+  overload: StoreManage.St_emp_result.user_pur_type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.release_price
+  commentId: P:StoreManage.St_emp_result.release_price
+  id: release_price
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: release_price
+  nameWithType: St_emp_result.release_price
+  fullName: StoreManage.St_emp_result.release_price
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: release_price
+    path: CommonByKjs.cs
+    startLine: 200
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string release_price { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property release_price As String
+  overload: StoreManage.St_emp_result.release_price*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.subsidy_price
+  commentId: P:StoreManage.St_emp_result.subsidy_price
+  id: subsidy_price
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: subsidy_price
+  nameWithType: St_emp_result.subsidy_price
+  fullName: StoreManage.St_emp_result.subsidy_price
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: subsidy_price
+    path: CommonByKjs.cs
+    startLine: 202
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string subsidy_price { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property subsidy_price As String
+  overload: StoreManage.St_emp_result.subsidy_price*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.installment_price
+  commentId: P:StoreManage.St_emp_result.installment_price
+  id: installment_price
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: installment_price
+  nameWithType: St_emp_result.installment_price
+  fullName: StoreManage.St_emp_result.installment_price
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: installment_price
+    path: CommonByKjs.cs
+    startLine: 204
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string installment_price { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property installment_price As String
+  overload: StoreManage.St_emp_result.installment_price*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.prepayments
+  commentId: P:StoreManage.St_emp_result.prepayments
+  id: prepayments
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: prepayments
+  nameWithType: St_emp_result.prepayments
+  fullName: StoreManage.St_emp_result.prepayments
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: prepayments
+    path: CommonByKjs.cs
+    startLine: 206
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string prepayments { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property prepayments As String
+  overload: StoreManage.St_emp_result.prepayments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.mnp_commission
+  commentId: P:StoreManage.St_emp_result.mnp_commission
+  id: mnp_commission
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: mnp_commission
+  nameWithType: St_emp_result.mnp_commission
+  fullName: StoreManage.St_emp_result.mnp_commission
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: mnp_commission
+    path: CommonByKjs.cs
+    startLine: 208
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string mnp_commission { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property mnp_commission As String
+  overload: StoreManage.St_emp_result.mnp_commission*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.price_plan
+  commentId: P:StoreManage.St_emp_result.price_plan
+  id: price_plan
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: price_plan
+  nameWithType: St_emp_result.price_plan
+  fullName: StoreManage.St_emp_result.price_plan
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: price_plan
+    path: CommonByKjs.cs
+    startLine: 210
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string price_plan { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property price_plan As String
+  overload: StoreManage.St_emp_result.price_plan*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.net_rebate
+  commentId: P:StoreManage.St_emp_result.net_rebate
+  id: net_rebate
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: net_rebate
+  nameWithType: St_emp_result.net_rebate
+  fullName: StoreManage.St_emp_result.net_rebate
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: net_rebate
+    path: CommonByKjs.cs
+    startLine: 212
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string net_rebate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property net_rebate As String
+  overload: StoreManage.St_emp_result.net_rebate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.add_policy
+  commentId: P:StoreManage.St_emp_result.add_policy
+  id: add_policy
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: add_policy
+  nameWithType: St_emp_result.add_policy
+  fullName: StoreManage.St_emp_result.add_policy
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: add_policy
+    path: CommonByKjs.cs
+    startLine: 214
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string add_policy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property add_policy As String
+  overload: StoreManage.St_emp_result.add_policy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.sound_policy
+  commentId: P:StoreManage.St_emp_result.sound_policy
+  id: sound_policy
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: sound_policy
+  nameWithType: St_emp_result.sound_policy
+  fullName: StoreManage.St_emp_result.sound_policy
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: sound_policy
+    path: CommonByKjs.cs
+    startLine: 216
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string sound_policy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property sound_policy As String
+  overload: StoreManage.St_emp_result.sound_policy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.addition_service
+  commentId: P:StoreManage.St_emp_result.addition_service
+  id: addition_service
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: addition_service
+  nameWithType: St_emp_result.addition_service
+  fullName: StoreManage.St_emp_result.addition_service
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: addition_service
+    path: CommonByKjs.cs
+    startLine: 218
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string addition_service { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property addition_service As String
+  overload: StoreManage.St_emp_result.addition_service*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.insurance_YN
+  commentId: P:StoreManage.St_emp_result.insurance_YN
+  id: insurance_YN
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: insurance_YN
+  nameWithType: St_emp_result.insurance_YN
+  fullName: StoreManage.St_emp_result.insurance_YN
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: insurance_YN
+    path: CommonByKjs.cs
+    startLine: 220
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string insurance_YN { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property insurance_YN As String
+  overload: StoreManage.St_emp_result.insurance_YN*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.late_payment_usim
+  commentId: P:StoreManage.St_emp_result.late_payment_usim
+  id: late_payment_usim
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: late_payment_usim
+  nameWithType: St_emp_result.late_payment_usim
+  fullName: StoreManage.St_emp_result.late_payment_usim
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: late_payment_usim
+    path: CommonByKjs.cs
+    startLine: 222
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string late_payment_usim { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property late_payment_usim As String
+  overload: StoreManage.St_emp_result.late_payment_usim*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.prepayments_usim
+  commentId: P:StoreManage.St_emp_result.prepayments_usim
+  id: prepayments_usim
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: prepayments_usim
+  nameWithType: St_emp_result.prepayments_usim
+  fullName: StoreManage.St_emp_result.prepayments_usim
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: prepayments_usim
+    path: CommonByKjs.cs
+    startLine: 224
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string prepayments_usim { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property prepayments_usim As String
+  overload: StoreManage.St_emp_result.prepayments_usim*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.user_calculate
+  commentId: P:StoreManage.St_emp_result.user_calculate
+  id: user_calculate
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: user_calculate
+  nameWithType: St_emp_result.user_calculate
+  fullName: StoreManage.St_emp_result.user_calculate
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: user_calculate
+    path: CommonByKjs.cs
+    startLine: 226
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string user_calculate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property user_calculate As String
+  overload: StoreManage.St_emp_result.user_calculate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.send_price
+  commentId: P:StoreManage.St_emp_result.send_price
+  id: send_price
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: send_price
+  nameWithType: St_emp_result.send_price
+  fullName: StoreManage.St_emp_result.send_price
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: send_price
+    path: CommonByKjs.cs
+    startLine: 228
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string send_price { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property send_price As String
+  overload: StoreManage.St_emp_result.send_price*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.due_date
+  commentId: P:StoreManage.St_emp_result.due_date
+  id: due_date
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: due_date
+  nameWithType: St_emp_result.due_date
+  fullName: StoreManage.St_emp_result.due_date
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: due_date
+    path: CommonByKjs.cs
+    startLine: 230
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DateTime due_date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property due_date As Date
+  overload: StoreManage.St_emp_result.due_date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.cash
+  commentId: P:StoreManage.St_emp_result.cash
+  id: cash
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: cash
+  nameWithType: St_emp_result.cash
+  fullName: StoreManage.St_emp_result.cash
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: cash
+    path: CommonByKjs.cs
+    startLine: 232
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string cash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property cash As String
+  overload: StoreManage.St_emp_result.cash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.card
+  commentId: P:StoreManage.St_emp_result.card
+  id: card
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: card
+  nameWithType: St_emp_result.card
+  fullName: StoreManage.St_emp_result.card
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: card
+    path: CommonByKjs.cs
+    startLine: 234
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string card { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property card As String
+  overload: StoreManage.St_emp_result.card*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.agent
+  commentId: P:StoreManage.St_emp_result.agent
+  id: agent
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: agent
+  nameWithType: St_emp_result.agent
+  fullName: StoreManage.St_emp_result.agent
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: agent
+    path: CommonByKjs.cs
+    startLine: 236
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string agent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property agent As String
+  overload: StoreManage.St_emp_result.agent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.card_sale_price
+  commentId: P:StoreManage.St_emp_result.card_sale_price
+  id: card_sale_price
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: card_sale_price
+  nameWithType: St_emp_result.card_sale_price
+  fullName: StoreManage.St_emp_result.card_sale_price
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: card_sale_price
+    path: CommonByKjs.cs
+    startLine: 238
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string card_sale_price { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property card_sale_price As String
+  overload: StoreManage.St_emp_result.card_sale_price*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.cash_sale_price
+  commentId: P:StoreManage.St_emp_result.cash_sale_price
+  id: cash_sale_price
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: cash_sale_price
+  nameWithType: St_emp_result.cash_sale_price
+  fullName: StoreManage.St_emp_result.cash_sale_price
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: cash_sale_price
+    path: CommonByKjs.cs
+    startLine: 239
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string cash_sale_price { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property cash_sale_price As String
+  overload: StoreManage.St_emp_result.cash_sale_price*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.etc_offset
+  commentId: P:StoreManage.St_emp_result.etc_offset
+  id: etc_offset
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: etc_offset
+  nameWithType: St_emp_result.etc_offset
+  fullName: StoreManage.St_emp_result.etc_offset
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: etc_offset
+    path: CommonByKjs.cs
+    startLine: 241
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string etc_offset { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property etc_offset As String
+  overload: StoreManage.St_emp_result.etc_offset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.after_tax_price
+  commentId: P:StoreManage.St_emp_result.after_tax_price
+  id: after_tax_price
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: after_tax_price
+  nameWithType: St_emp_result.after_tax_price
+  fullName: StoreManage.St_emp_result.after_tax_price
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: after_tax_price
+    path: CommonByKjs.cs
+    startLine: 243
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string after_tax_price { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property after_tax_price As String
+  overload: StoreManage.St_emp_result.after_tax_price*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.profit_margin
+  commentId: P:StoreManage.St_emp_result.profit_margin
+  id: profit_margin
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: profit_margin
+  nameWithType: St_emp_result.profit_margin
+  fullName: StoreManage.St_emp_result.profit_margin
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: profit_margin
+    path: CommonByKjs.cs
+    startLine: 245
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string profit_margin { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property profit_margin As String
+  overload: StoreManage.St_emp_result.profit_margin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_emp_result.note
+  commentId: P:StoreManage.St_emp_result.note
+  id: note
+  parent: StoreManage.St_emp_result
+  langs:
+  - csharp
+  - vb
+  name: note
+  nameWithType: St_emp_result.note
+  fullName: StoreManage.St_emp_result.note
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: note
+    path: CommonByKjs.cs
+    startLine: 247
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string note { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property note As String
+  overload: StoreManage.St_emp_result.note*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: StoreManage
+  commentId: N:StoreManage
+  name: StoreManage
+  nameWithType: StoreManage
+  fullName: StoreManage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StoreManage.St_emp_result.st_emp_code*
+  commentId: Overload:StoreManage.St_emp_result.st_emp_code
+  name: st_emp_code
+  nameWithType: St_emp_result.st_emp_code
+  fullName: StoreManage.St_emp_result.st_emp_code
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StoreManage.St_emp_result.st_code*
+  commentId: Overload:StoreManage.St_emp_result.st_code
+  name: st_code
+  nameWithType: St_emp_result.st_code
+  fullName: StoreManage.St_emp_result.st_code
+- uid: StoreManage.St_emp_result.result_date*
+  commentId: Overload:StoreManage.St_emp_result.result_date
+  name: result_date
+  nameWithType: St_emp_result.result_date
+  fullName: StoreManage.St_emp_result.result_date
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: StoreManage.St_emp_result.result_open_date*
+  commentId: Overload:StoreManage.St_emp_result.result_open_date
+  name: result_open_date
+  nameWithType: St_emp_result.result_open_date
+  fullName: StoreManage.St_emp_result.result_open_date
+- uid: StoreManage.St_emp_result.result_open_m_date*
+  commentId: Overload:StoreManage.St_emp_result.result_open_m_date
+  name: result_open_m_date
+  nameWithType: St_emp_result.result_open_m_date
+  fullName: StoreManage.St_emp_result.result_open_m_date
+- uid: StoreManage.St_emp_result.result_policy*
+  commentId: Overload:StoreManage.St_emp_result.result_policy
+  name: result_policy
+  nameWithType: St_emp_result.result_policy
+  fullName: StoreManage.St_emp_result.result_policy
+- uid: StoreManage.St_emp_result.agent_code*
+  commentId: Overload:StoreManage.St_emp_result.agent_code
+  name: agent_code
+  nameWithType: St_emp_result.agent_code
+  fullName: StoreManage.St_emp_result.agent_code
+- uid: StoreManage.St_emp_result.result_ph_m*
+  commentId: Overload:StoreManage.St_emp_result.result_ph_m
+  name: result_ph_m
+  nameWithType: St_emp_result.result_ph_m
+  fullName: StoreManage.St_emp_result.result_ph_m
+- uid: StoreManage.St_emp_result.result_serial_number*
+  commentId: Overload:StoreManage.St_emp_result.result_serial_number
+  name: result_serial_number
+  nameWithType: St_emp_result.result_serial_number
+  fullName: StoreManage.St_emp_result.result_serial_number
+- uid: StoreManage.St_emp_result.user_code*
+  commentId: Overload:StoreManage.St_emp_result.user_code
+  name: user_code
+  nameWithType: St_emp_result.user_code
+  fullName: StoreManage.St_emp_result.user_code
+- uid: StoreManage.St_emp_result.user_open_number*
+  commentId: Overload:StoreManage.St_emp_result.user_open_number
+  name: user_open_number
+  nameWithType: St_emp_result.user_open_number
+  fullName: StoreManage.St_emp_result.user_open_number
+- uid: StoreManage.St_emp_result.user_agree_type*
+  commentId: Overload:StoreManage.St_emp_result.user_agree_type
+  name: user_agree_type
+  nameWithType: St_emp_result.user_agree_type
+  fullName: StoreManage.St_emp_result.user_agree_type
+- uid: StoreManage.St_emp_result.user_open_type*
+  commentId: Overload:StoreManage.St_emp_result.user_open_type
+  name: user_open_type
+  nameWithType: St_emp_result.user_open_type
+  fullName: StoreManage.St_emp_result.user_open_type
+- uid: StoreManage.St_emp_result.user_previous_com*
+  commentId: Overload:StoreManage.St_emp_result.user_previous_com
+  name: user_previous_com
+  nameWithType: St_emp_result.user_previous_com
+  fullName: StoreManage.St_emp_result.user_previous_com
+- uid: StoreManage.St_emp_result.user_pur_type*
+  commentId: Overload:StoreManage.St_emp_result.user_pur_type
+  name: user_pur_type
+  nameWithType: St_emp_result.user_pur_type
+  fullName: StoreManage.St_emp_result.user_pur_type
+- uid: StoreManage.St_emp_result.release_price*
+  commentId: Overload:StoreManage.St_emp_result.release_price
+  name: release_price
+  nameWithType: St_emp_result.release_price
+  fullName: StoreManage.St_emp_result.release_price
+- uid: StoreManage.St_emp_result.subsidy_price*
+  commentId: Overload:StoreManage.St_emp_result.subsidy_price
+  name: subsidy_price
+  nameWithType: St_emp_result.subsidy_price
+  fullName: StoreManage.St_emp_result.subsidy_price
+- uid: StoreManage.St_emp_result.installment_price*
+  commentId: Overload:StoreManage.St_emp_result.installment_price
+  name: installment_price
+  nameWithType: St_emp_result.installment_price
+  fullName: StoreManage.St_emp_result.installment_price
+- uid: StoreManage.St_emp_result.prepayments*
+  commentId: Overload:StoreManage.St_emp_result.prepayments
+  name: prepayments
+  nameWithType: St_emp_result.prepayments
+  fullName: StoreManage.St_emp_result.prepayments
+- uid: StoreManage.St_emp_result.mnp_commission*
+  commentId: Overload:StoreManage.St_emp_result.mnp_commission
+  name: mnp_commission
+  nameWithType: St_emp_result.mnp_commission
+  fullName: StoreManage.St_emp_result.mnp_commission
+- uid: StoreManage.St_emp_result.price_plan*
+  commentId: Overload:StoreManage.St_emp_result.price_plan
+  name: price_plan
+  nameWithType: St_emp_result.price_plan
+  fullName: StoreManage.St_emp_result.price_plan
+- uid: StoreManage.St_emp_result.net_rebate*
+  commentId: Overload:StoreManage.St_emp_result.net_rebate
+  name: net_rebate
+  nameWithType: St_emp_result.net_rebate
+  fullName: StoreManage.St_emp_result.net_rebate
+- uid: StoreManage.St_emp_result.add_policy*
+  commentId: Overload:StoreManage.St_emp_result.add_policy
+  name: add_policy
+  nameWithType: St_emp_result.add_policy
+  fullName: StoreManage.St_emp_result.add_policy
+- uid: StoreManage.St_emp_result.sound_policy*
+  commentId: Overload:StoreManage.St_emp_result.sound_policy
+  name: sound_policy
+  nameWithType: St_emp_result.sound_policy
+  fullName: StoreManage.St_emp_result.sound_policy
+- uid: StoreManage.St_emp_result.addition_service*
+  commentId: Overload:StoreManage.St_emp_result.addition_service
+  name: addition_service
+  nameWithType: St_emp_result.addition_service
+  fullName: StoreManage.St_emp_result.addition_service
+- uid: StoreManage.St_emp_result.insurance_YN*
+  commentId: Overload:StoreManage.St_emp_result.insurance_YN
+  name: insurance_YN
+  nameWithType: St_emp_result.insurance_YN
+  fullName: StoreManage.St_emp_result.insurance_YN
+- uid: StoreManage.St_emp_result.late_payment_usim*
+  commentId: Overload:StoreManage.St_emp_result.late_payment_usim
+  name: late_payment_usim
+  nameWithType: St_emp_result.late_payment_usim
+  fullName: StoreManage.St_emp_result.late_payment_usim
+- uid: StoreManage.St_emp_result.prepayments_usim*
+  commentId: Overload:StoreManage.St_emp_result.prepayments_usim
+  name: prepayments_usim
+  nameWithType: St_emp_result.prepayments_usim
+  fullName: StoreManage.St_emp_result.prepayments_usim
+- uid: StoreManage.St_emp_result.user_calculate*
+  commentId: Overload:StoreManage.St_emp_result.user_calculate
+  name: user_calculate
+  nameWithType: St_emp_result.user_calculate
+  fullName: StoreManage.St_emp_result.user_calculate
+- uid: StoreManage.St_emp_result.send_price*
+  commentId: Overload:StoreManage.St_emp_result.send_price
+  name: send_price
+  nameWithType: St_emp_result.send_price
+  fullName: StoreManage.St_emp_result.send_price
+- uid: StoreManage.St_emp_result.due_date*
+  commentId: Overload:StoreManage.St_emp_result.due_date
+  name: due_date
+  nameWithType: St_emp_result.due_date
+  fullName: StoreManage.St_emp_result.due_date
+- uid: StoreManage.St_emp_result.cash*
+  commentId: Overload:StoreManage.St_emp_result.cash
+  name: cash
+  nameWithType: St_emp_result.cash
+  fullName: StoreManage.St_emp_result.cash
+- uid: StoreManage.St_emp_result.card*
+  commentId: Overload:StoreManage.St_emp_result.card
+  name: card
+  nameWithType: St_emp_result.card
+  fullName: StoreManage.St_emp_result.card
+- uid: StoreManage.St_emp_result.agent*
+  commentId: Overload:StoreManage.St_emp_result.agent
+  name: agent
+  nameWithType: St_emp_result.agent
+  fullName: StoreManage.St_emp_result.agent
+- uid: StoreManage.St_emp_result.card_sale_price*
+  commentId: Overload:StoreManage.St_emp_result.card_sale_price
+  name: card_sale_price
+  nameWithType: St_emp_result.card_sale_price
+  fullName: StoreManage.St_emp_result.card_sale_price
+- uid: StoreManage.St_emp_result.cash_sale_price*
+  commentId: Overload:StoreManage.St_emp_result.cash_sale_price
+  name: cash_sale_price
+  nameWithType: St_emp_result.cash_sale_price
+  fullName: StoreManage.St_emp_result.cash_sale_price
+- uid: StoreManage.St_emp_result.etc_offset*
+  commentId: Overload:StoreManage.St_emp_result.etc_offset
+  name: etc_offset
+  nameWithType: St_emp_result.etc_offset
+  fullName: StoreManage.St_emp_result.etc_offset
+- uid: StoreManage.St_emp_result.after_tax_price*
+  commentId: Overload:StoreManage.St_emp_result.after_tax_price
+  name: after_tax_price
+  nameWithType: St_emp_result.after_tax_price
+  fullName: StoreManage.St_emp_result.after_tax_price
+- uid: StoreManage.St_emp_result.profit_margin*
+  commentId: Overload:StoreManage.St_emp_result.profit_margin
+  name: profit_margin
+  nameWithType: St_emp_result.profit_margin
+  fullName: StoreManage.St_emp_result.profit_margin
+- uid: StoreManage.St_emp_result.note*
+  commentId: Overload:StoreManage.St_emp_result.note
+  name: note
+  nameWithType: St_emp_result.note
+  fullName: StoreManage.St_emp_result.note

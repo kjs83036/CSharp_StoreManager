@@ -1,0 +1,873 @@
+### YamlMime:ManagedReference
+items:
+- uid: StoreManage.UserControl1.make_qury
+  commentId: T:StoreManage.UserControl1.make_qury
+  id: UserControl1.make_qury
+  parent: StoreManage
+  children:
+  - StoreManage.UserControl1.make_qury.All_select_qury(System.String,StoreManage.UserControl1.employee)
+  - StoreManage.UserControl1.make_qury.columnsMember
+  - StoreManage.UserControl1.make_qury.DBConnectionString
+  - StoreManage.UserControl1.make_qury.delete_qury(System.String,StoreManage.UserControl1.employee)
+  - StoreManage.UserControl1.make_qury.distinct__ALL_select_qury(System.String,System.String)
+  - StoreManage.UserControl1.make_qury.insert_qury(System.String,StoreManage.Employee)
+  - StoreManage.UserControl1.make_qury.myConnection
+  - StoreManage.UserControl1.make_qury.select_qury(System.String,StoreManage.UserControl1.employee)
+  - StoreManage.UserControl1.make_qury.SelectAllFrom_Where_DESC_(System.String,System.String,System.Object[])
+  - StoreManage.UserControl1.make_qury.target_select_qury(System.String,StoreManage.UserControl1.employee,System.String)
+  - StoreManage.UserControl1.make_qury.update_qury(System.String,StoreManage.UserControl1.employee)
+  langs:
+  - csharp
+  - vb
+  name: UserControl1.make_qury
+  nameWithType: UserControl1.make_qury
+  fullName: StoreManage.UserControl1.make_qury
+  type: Class
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: make_qury
+    path: UserControl1.cs
+    startLine: 752
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public class make_qury
+    content.vb: Public Class make_qury
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StoreManage.UserControl1.make_qury.columnsMember
+  commentId: F:StoreManage.UserControl1.make_qury.columnsMember
+  id: columnsMember
+  parent: StoreManage.UserControl1.make_qury
+  langs:
+  - csharp
+  - vb
+  name: columnsMember
+  nameWithType: UserControl1.make_qury.columnsMember
+  fullName: StoreManage.UserControl1.make_qury.columnsMember
+  type: Field
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: columnsMember
+    path: UserControl1.cs
+    startLine: 755
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string[] columnsMember
+    return:
+      type: System.String[]
+    content.vb: Public columnsMember As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.make_qury.myConnection
+  commentId: F:StoreManage.UserControl1.make_qury.myConnection
+  id: myConnection
+  parent: StoreManage.UserControl1.make_qury
+  langs:
+  - csharp
+  - vb
+  name: myConnection
+  nameWithType: UserControl1.make_qury.myConnection
+  fullName: StoreManage.UserControl1.make_qury.myConnection
+  type: Field
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: myConnection
+    path: UserControl1.cs
+    startLine: 758
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public SqlConnection myConnection
+    return:
+      type: System.Data.SqlClient.SqlConnection
+    content.vb: Public myConnection As SqlConnection
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.make_qury.DBConnectionString
+  commentId: F:StoreManage.UserControl1.make_qury.DBConnectionString
+  id: DBConnectionString
+  parent: StoreManage.UserControl1.make_qury
+  langs:
+  - csharp
+  - vb
+  name: DBConnectionString
+  nameWithType: UserControl1.make_qury.DBConnectionString
+  fullName: StoreManage.UserControl1.make_qury.DBConnectionString
+  type: Field
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: DBConnectionString
+    path: UserControl1.cs
+    startLine: 760
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string DBConnectionString
+    return:
+      type: System.String
+    content.vb: Public DBConnectionString As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.make_qury.insert_qury(System.String,StoreManage.Employee)
+  commentId: M:StoreManage.UserControl1.make_qury.insert_qury(System.String,StoreManage.Employee)
+  id: insert_qury(System.String,StoreManage.Employee)
+  parent: StoreManage.UserControl1.make_qury
+  langs:
+  - csharp
+  - vb
+  name: insert_qury(String, Employee)
+  nameWithType: UserControl1.make_qury.insert_qury(String, Employee)
+  fullName: StoreManage.UserControl1.make_qury.insert_qury(System.String, StoreManage.Employee)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: insert_qury
+    path: UserControl1.cs
+    startLine: 765
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string insert_qury(string table, Employee t)
+    parameters:
+    - id: table
+      type: System.String
+    - id: t
+      type: StoreManage.Employee
+    return:
+      type: System.String
+    content.vb: Public Function insert_qury(table As String, t As Employee) As String
+  overload: StoreManage.UserControl1.make_qury.insert_qury*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.make_qury.All_select_qury(System.String,StoreManage.UserControl1.employee)
+  commentId: M:StoreManage.UserControl1.make_qury.All_select_qury(System.String,StoreManage.UserControl1.employee)
+  id: All_select_qury(System.String,StoreManage.UserControl1.employee)
+  parent: StoreManage.UserControl1.make_qury
+  langs:
+  - csharp
+  - vb
+  name: All_select_qury(String, UserControl1.employee)
+  nameWithType: UserControl1.make_qury.All_select_qury(String, UserControl1.employee)
+  fullName: StoreManage.UserControl1.make_qury.All_select_qury(System.String, StoreManage.UserControl1.employee)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: All_select_qury
+    path: UserControl1.cs
+    startLine: 790
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string All_select_qury(string table, UserControl1.employee t)
+    parameters:
+    - id: table
+      type: System.String
+    - id: t
+      type: StoreManage.UserControl1.employee
+    return:
+      type: System.String
+    content.vb: Public Function All_select_qury(table As String, t As UserControl1.employee) As String
+  overload: StoreManage.UserControl1.make_qury.All_select_qury*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.make_qury.select_qury(System.String,StoreManage.UserControl1.employee)
+  commentId: M:StoreManage.UserControl1.make_qury.select_qury(System.String,StoreManage.UserControl1.employee)
+  id: select_qury(System.String,StoreManage.UserControl1.employee)
+  parent: StoreManage.UserControl1.make_qury
+  langs:
+  - csharp
+  - vb
+  name: select_qury(String, UserControl1.employee)
+  nameWithType: UserControl1.make_qury.select_qury(String, UserControl1.employee)
+  fullName: StoreManage.UserControl1.make_qury.select_qury(System.String, StoreManage.UserControl1.employee)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: select_qury
+    path: UserControl1.cs
+    startLine: 809
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string select_qury(string table, UserControl1.employee t)
+    parameters:
+    - id: table
+      type: System.String
+    - id: t
+      type: StoreManage.UserControl1.employee
+    return:
+      type: System.String
+    content.vb: Public Function select_qury(table As String, t As UserControl1.employee) As String
+  overload: StoreManage.UserControl1.make_qury.select_qury*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.make_qury.target_select_qury(System.String,StoreManage.UserControl1.employee,System.String)
+  commentId: M:StoreManage.UserControl1.make_qury.target_select_qury(System.String,StoreManage.UserControl1.employee,System.String)
+  id: target_select_qury(System.String,StoreManage.UserControl1.employee,System.String)
+  parent: StoreManage.UserControl1.make_qury
+  langs:
+  - csharp
+  - vb
+  name: target_select_qury(String, UserControl1.employee, String)
+  nameWithType: UserControl1.make_qury.target_select_qury(String, UserControl1.employee, String)
+  fullName: StoreManage.UserControl1.make_qury.target_select_qury(System.String, StoreManage.UserControl1.employee, System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: target_select_qury
+    path: UserControl1.cs
+    startLine: 828
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string target_select_qury(string table, UserControl1.employee t, string where)
+    parameters:
+    - id: table
+      type: System.String
+    - id: t
+      type: StoreManage.UserControl1.employee
+    - id: where
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function target_select_qury(table As String, t As UserControl1.employee, where As String) As String
+  overload: StoreManage.UserControl1.make_qury.target_select_qury*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.make_qury.update_qury(System.String,StoreManage.UserControl1.employee)
+  commentId: M:StoreManage.UserControl1.make_qury.update_qury(System.String,StoreManage.UserControl1.employee)
+  id: update_qury(System.String,StoreManage.UserControl1.employee)
+  parent: StoreManage.UserControl1.make_qury
+  langs:
+  - csharp
+  - vb
+  name: update_qury(String, UserControl1.employee)
+  nameWithType: UserControl1.make_qury.update_qury(String, UserControl1.employee)
+  fullName: StoreManage.UserControl1.make_qury.update_qury(System.String, StoreManage.UserControl1.employee)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: update_qury
+    path: UserControl1.cs
+    startLine: 849
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string update_qury(string table, UserControl1.employee t)
+    parameters:
+    - id: table
+      type: System.String
+    - id: t
+      type: StoreManage.UserControl1.employee
+    return:
+      type: System.String
+    content.vb: Public Function update_qury(table As String, t As UserControl1.employee) As String
+  overload: StoreManage.UserControl1.make_qury.update_qury*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.make_qury.delete_qury(System.String,StoreManage.UserControl1.employee)
+  commentId: M:StoreManage.UserControl1.make_qury.delete_qury(System.String,StoreManage.UserControl1.employee)
+  id: delete_qury(System.String,StoreManage.UserControl1.employee)
+  parent: StoreManage.UserControl1.make_qury
+  langs:
+  - csharp
+  - vb
+  name: delete_qury(String, UserControl1.employee)
+  nameWithType: UserControl1.make_qury.delete_qury(String, UserControl1.employee)
+  fullName: StoreManage.UserControl1.make_qury.delete_qury(System.String, StoreManage.UserControl1.employee)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: delete_qury
+    path: UserControl1.cs
+    startLine: 869
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string delete_qury(string table, UserControl1.employee t)
+    parameters:
+    - id: table
+      type: System.String
+    - id: t
+      type: StoreManage.UserControl1.employee
+    return:
+      type: System.String
+    content.vb: Public Function delete_qury(table As String, t As UserControl1.employee) As String
+  overload: StoreManage.UserControl1.make_qury.delete_qury*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.make_qury.distinct__ALL_select_qury(System.String,System.String)
+  commentId: M:StoreManage.UserControl1.make_qury.distinct__ALL_select_qury(System.String,System.String)
+  id: distinct__ALL_select_qury(System.String,System.String)
+  parent: StoreManage.UserControl1.make_qury
+  langs:
+  - csharp
+  - vb
+  name: distinct__ALL_select_qury(String, String)
+  nameWithType: UserControl1.make_qury.distinct__ALL_select_qury(String, String)
+  fullName: StoreManage.UserControl1.make_qury.distinct__ALL_select_qury(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: distinct__ALL_select_qury
+    path: UserControl1.cs
+    startLine: 888
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string distinct__ALL_select_qury(string table, string column)
+    parameters:
+    - id: table
+      type: System.String
+    - id: column
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function distinct__ALL_select_qury(table As String, column As String) As String
+  overload: StoreManage.UserControl1.make_qury.distinct__ALL_select_qury*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.make_qury.SelectAllFrom_Where_DESC_(System.String,System.String,System.Object[])
+  commentId: M:StoreManage.UserControl1.make_qury.SelectAllFrom_Where_DESC_(System.String,System.String,System.Object[])
+  id: SelectAllFrom_Where_DESC_(System.String,System.String,System.Object[])
+  parent: StoreManage.UserControl1.make_qury
+  langs:
+  - csharp
+  - vb
+  name: SelectAllFrom_Where_DESC_(String, String, Object[])
+  nameWithType: UserControl1.make_qury.SelectAllFrom_Where_DESC_(String, String, Object[])
+  fullName: StoreManage.UserControl1.make_qury.SelectAllFrom_Where_DESC_(System.String, System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: SelectAllFrom_Where_DESC_
+    path: UserControl1.cs
+    startLine: 898
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string SelectAllFrom_Where_DESC_(string table, string column, object[] values)
+    parameters:
+    - id: table
+      type: System.String
+    - id: column
+      type: System.String
+    - id: values
+      type: System.Object[]
+    return:
+      type: System.String
+    content.vb: Public Function SelectAllFrom_Where_DESC_(table As String, column As String, values As Object()) As String
+  overload: StoreManage.UserControl1.make_qury.SelectAllFrom_Where_DESC_*
+  nameWithType.vb: UserControl1.make_qury.SelectAllFrom_Where_DESC_(String, String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.UserControl1.make_qury.SelectAllFrom_Where_DESC_(System.String, System.String, System.Object())
+  name.vb: SelectAllFrom_Where_DESC_(String, String, Object())
+references:
+- uid: StoreManage
+  commentId: N:StoreManage
+  name: StoreManage
+  nameWithType: StoreManage
+  fullName: StoreManage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Data.SqlClient.SqlConnection
+  commentId: T:System.Data.SqlClient.SqlConnection
+  parent: System.Data.SqlClient
+  isExternal: true
+  name: SqlConnection
+  nameWithType: SqlConnection
+  fullName: System.Data.SqlClient.SqlConnection
+- uid: System.Data.SqlClient
+  commentId: N:System.Data.SqlClient
+  isExternal: true
+  name: System.Data.SqlClient
+  nameWithType: System.Data.SqlClient
+  fullName: System.Data.SqlClient
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StoreManage.UserControl1.make_qury.insert_qury*
+  commentId: Overload:StoreManage.UserControl1.make_qury.insert_qury
+  name: insert_qury
+  nameWithType: UserControl1.make_qury.insert_qury
+  fullName: StoreManage.UserControl1.make_qury.insert_qury
+- uid: StoreManage.Employee
+  commentId: T:StoreManage.Employee
+  parent: StoreManage
+  name: Employee
+  nameWithType: Employee
+  fullName: StoreManage.Employee
+- uid: StoreManage.UserControl1.make_qury.All_select_qury*
+  commentId: Overload:StoreManage.UserControl1.make_qury.All_select_qury
+  name: All_select_qury
+  nameWithType: UserControl1.make_qury.All_select_qury
+  fullName: StoreManage.UserControl1.make_qury.All_select_qury
+- uid: StoreManage.UserControl1.employee
+  commentId: T:StoreManage.UserControl1.employee
+  parent: StoreManage
+  name: UserControl1.employee
+  nameWithType: UserControl1.employee
+  fullName: StoreManage.UserControl1.employee
+- uid: StoreManage.UserControl1.make_qury.select_qury*
+  commentId: Overload:StoreManage.UserControl1.make_qury.select_qury
+  name: select_qury
+  nameWithType: UserControl1.make_qury.select_qury
+  fullName: StoreManage.UserControl1.make_qury.select_qury
+- uid: StoreManage.UserControl1.make_qury.target_select_qury*
+  commentId: Overload:StoreManage.UserControl1.make_qury.target_select_qury
+  name: target_select_qury
+  nameWithType: UserControl1.make_qury.target_select_qury
+  fullName: StoreManage.UserControl1.make_qury.target_select_qury
+- uid: StoreManage.UserControl1.make_qury.update_qury*
+  commentId: Overload:StoreManage.UserControl1.make_qury.update_qury
+  name: update_qury
+  nameWithType: UserControl1.make_qury.update_qury
+  fullName: StoreManage.UserControl1.make_qury.update_qury
+- uid: StoreManage.UserControl1.make_qury.delete_qury*
+  commentId: Overload:StoreManage.UserControl1.make_qury.delete_qury
+  name: delete_qury
+  nameWithType: UserControl1.make_qury.delete_qury
+  fullName: StoreManage.UserControl1.make_qury.delete_qury
+- uid: StoreManage.UserControl1.make_qury.distinct__ALL_select_qury*
+  commentId: Overload:StoreManage.UserControl1.make_qury.distinct__ALL_select_qury
+  name: distinct__ALL_select_qury
+  nameWithType: UserControl1.make_qury.distinct__ALL_select_qury
+  fullName: StoreManage.UserControl1.make_qury.distinct__ALL_select_qury
+- uid: StoreManage.UserControl1.make_qury.SelectAllFrom_Where_DESC_*
+  commentId: Overload:StoreManage.UserControl1.make_qury.SelectAllFrom_Where_DESC_
+  name: SelectAllFrom_Where_DESC_
+  nameWithType: UserControl1.make_qury.SelectAllFrom_Where_DESC_
+  fullName: StoreManage.UserControl1.make_qury.SelectAllFrom_Where_DESC_
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

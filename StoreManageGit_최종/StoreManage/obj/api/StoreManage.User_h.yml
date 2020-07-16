@@ -1,0 +1,561 @@
+### YamlMime:ManagedReference
+items:
+- uid: StoreManage.User_h
+  commentId: T:StoreManage.User_h
+  id: User_h
+  parent: StoreManage
+  children:
+  - StoreManage.User_h.h_date
+  - StoreManage.User_h.h_memo
+  - StoreManage.User_h.h_user_name
+  - StoreManage.User_h.h_user_phone_number
+  - StoreManage.User_h.st_emp_code
+  langs:
+  - csharp
+  - vb
+  name: User_h
+  nameWithType: User_h
+  fullName: StoreManage.User_h
+  type: Class
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: User_h
+    path: CommonByKjs.cs
+    startLine: 149
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public class User_h
+    content.vb: Public Class User_h
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StoreManage.User_h.h_user_name
+  commentId: P:StoreManage.User_h.h_user_name
+  id: h_user_name
+  parent: StoreManage.User_h
+  langs:
+  - csharp
+  - vb
+  name: h_user_name
+  nameWithType: User_h.h_user_name
+  fullName: StoreManage.User_h.h_user_name
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: h_user_name
+    path: CommonByKjs.cs
+    startLine: 152
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string h_user_name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property h_user_name As String
+  overload: StoreManage.User_h.h_user_name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.User_h.h_user_phone_number
+  commentId: P:StoreManage.User_h.h_user_phone_number
+  id: h_user_phone_number
+  parent: StoreManage.User_h
+  langs:
+  - csharp
+  - vb
+  name: h_user_phone_number
+  nameWithType: User_h.h_user_phone_number
+  fullName: StoreManage.User_h.h_user_phone_number
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: h_user_phone_number
+    path: CommonByKjs.cs
+    startLine: 154
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string h_user_phone_number { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property h_user_phone_number As String
+  overload: StoreManage.User_h.h_user_phone_number*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.User_h.h_date
+  commentId: P:StoreManage.User_h.h_date
+  id: h_date
+  parent: StoreManage.User_h
+  langs:
+  - csharp
+  - vb
+  name: h_date
+  nameWithType: User_h.h_date
+  fullName: StoreManage.User_h.h_date
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: h_date
+    path: CommonByKjs.cs
+    startLine: 156
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DateTime h_date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property h_date As Date
+  overload: StoreManage.User_h.h_date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.User_h.h_memo
+  commentId: P:StoreManage.User_h.h_memo
+  id: h_memo
+  parent: StoreManage.User_h
+  langs:
+  - csharp
+  - vb
+  name: h_memo
+  nameWithType: User_h.h_memo
+  fullName: StoreManage.User_h.h_memo
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: h_memo
+    path: CommonByKjs.cs
+    startLine: 158
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string h_memo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property h_memo As String
+  overload: StoreManage.User_h.h_memo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.User_h.st_emp_code
+  commentId: P:StoreManage.User_h.st_emp_code
+  id: st_emp_code
+  parent: StoreManage.User_h
+  langs:
+  - csharp
+  - vb
+  name: st_emp_code
+  nameWithType: User_h.st_emp_code
+  fullName: StoreManage.User_h.st_emp_code
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_code
+    path: CommonByKjs.cs
+    startLine: 160
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_emp_code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_emp_code As String
+  overload: StoreManage.User_h.st_emp_code*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: StoreManage
+  commentId: N:StoreManage
+  name: StoreManage
+  nameWithType: StoreManage
+  fullName: StoreManage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StoreManage.User_h.h_user_name*
+  commentId: Overload:StoreManage.User_h.h_user_name
+  name: h_user_name
+  nameWithType: User_h.h_user_name
+  fullName: StoreManage.User_h.h_user_name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StoreManage.User_h.h_user_phone_number*
+  commentId: Overload:StoreManage.User_h.h_user_phone_number
+  name: h_user_phone_number
+  nameWithType: User_h.h_user_phone_number
+  fullName: StoreManage.User_h.h_user_phone_number
+- uid: StoreManage.User_h.h_date*
+  commentId: Overload:StoreManage.User_h.h_date
+  name: h_date
+  nameWithType: User_h.h_date
+  fullName: StoreManage.User_h.h_date
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: StoreManage.User_h.h_memo*
+  commentId: Overload:StoreManage.User_h.h_memo
+  name: h_memo
+  nameWithType: User_h.h_memo
+  fullName: StoreManage.User_h.h_memo
+- uid: StoreManage.User_h.st_emp_code*
+  commentId: Overload:StoreManage.User_h.st_emp_code
+  name: st_emp_code
+  nameWithType: User_h.st_emp_code
+  fullName: StoreManage.User_h.st_emp_code

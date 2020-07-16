@@ -1,0 +1,366 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/2klab/OneDrive/2kd/Projects_c#_real/StoreManageGit/StoreManage",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "JY/34NFQliXdCnlZMmKi4A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "cewplGFDeabVLJ7sXzmX4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "e1QqmZVw0cUTE6YJ2WJ3dw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.Crud.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.Crud.html",
+          "hash": "XTw828p9g1uzoEmtXcnJqA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.DbFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.DbFactory.html",
+          "hash": "K85Oe3f3lLXQ+Htom4pKNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.Employee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.Employee.html",
+          "hash": "a6KVGDoR/nsTK0FBZRVG/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.Expense.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.Expense.html",
+          "hash": "SqakO9gblP2fdevmVfZamQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.Login.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.Login.html",
+          "hash": "dpvWHe0nkPfE0Ot7H1FjiA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.SqlQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.SqlQuery.html",
+          "hash": "4SwO46spCOvIyJIXOgyRxw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.St_emp_result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.St_emp_result.html",
+          "hash": "1gKsORKBwzd69tubmUVjdQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.St_table.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.St_table.html",
+          "hash": "zkQDMxq7L2WjBvXpXuk2Pw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.StoreManage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.StoreManage.html",
+          "hash": "kY05CgmwNWFpR2aN6oEiIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.TempCrudFunc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.TempCrudFunc.html",
+          "hash": "OANJ8HPaTNxXygZ4GqJ/AA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.TempFuncForWinform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.TempFuncForWinform.html",
+          "hash": "UzHH7UAPSA4OodAZwqVyjA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.UserControl1.DBClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.UserControl1.DBClass.html",
+          "hash": "nop6zbYGqYHjFWX04O387g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.UserControl1.Store.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.UserControl1.Store.html",
+          "hash": "7svNExMKnHEumANaYKD6sQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.UserControl1.employee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.UserControl1.employee.html",
+          "hash": "u0CzaEP9cHfHx1r+D0Lncg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.UserControl1.make_qury.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.UserControl1.make_qury.html",
+          "hash": "6tACjSaFhuwyQvSfQTg8+A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.UserControl1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.UserControl1.html",
+          "hash": "bDDVVAW9ftDA+f6ajpcObA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.UserControl2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.UserControl2.html",
+          "hash": "rQUdXHU4LucgdvXCe5lyYA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.User_h.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.User_h.html",
+          "hash": "yDHmtNdVmjCzfhV823oUHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.User_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.User_t.html",
+          "hash": "legU2kpzM2HAYzHdKr0ZSg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/StoreManage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StoreManage.html",
+          "hash": "F74ggPikZFzAsuhjBihC6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "ghR7LHZEuCQpECsRbPKAuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "G2AoE5T/2VarbHvzLEo4TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 20,
+          "skipped_file_count": 20
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

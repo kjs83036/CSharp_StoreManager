@@ -1,0 +1,766 @@
+### YamlMime:ManagedReference
+items:
+- uid: StoreManage.UserControl1.DBClass
+  commentId: T:StoreManage.UserControl1.DBClass
+  id: UserControl1.DBClass
+  parent: StoreManage
+  children:
+  - StoreManage.UserControl1.DBClass.#ctor
+  - StoreManage.UserControl1.DBClass.ConnectionClose
+  - StoreManage.UserControl1.DBClass.ConnectionOpen
+  - StoreManage.UserControl1.DBClass.DataFill(System.String)
+  - StoreManage.UserControl1.DBClass.DataInsert(System.String)
+  - StoreManage.UserControl1.DBClass.DataNonQuery(System.String)
+  - StoreManage.UserControl1.DBClass.DataScalar(System.String)
+  - StoreManage.UserControl1.DBClass.DataSetGrid(System.String)
+  - StoreManage.UserControl1.DBClass.DBConnectionString
+  - StoreManage.UserControl1.DBClass.myConnection
+  langs:
+  - csharp
+  - vb
+  name: UserControl1.DBClass
+  nameWithType: UserControl1.DBClass
+  fullName: StoreManage.UserControl1.DBClass
+  type: Class
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: DBClass
+    path: UserControl1.cs
+    startLine: 930
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public class DBClass
+    content.vb: Public Class DBClass
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StoreManage.UserControl1.DBClass.myConnection
+  commentId: F:StoreManage.UserControl1.DBClass.myConnection
+  id: myConnection
+  parent: StoreManage.UserControl1.DBClass
+  langs:
+  - csharp
+  - vb
+  name: myConnection
+  nameWithType: UserControl1.DBClass.myConnection
+  fullName: StoreManage.UserControl1.DBClass.myConnection
+  type: Field
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: myConnection
+    path: UserControl1.cs
+    startLine: 932
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public MySqlConnection myConnection
+    return:
+      type: MySql.Data.MySqlClient.MySqlConnection
+    content.vb: Public myConnection As MySqlConnection
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.DBClass.DBConnectionString
+  commentId: F:StoreManage.UserControl1.DBClass.DBConnectionString
+  id: DBConnectionString
+  parent: StoreManage.UserControl1.DBClass
+  langs:
+  - csharp
+  - vb
+  name: DBConnectionString
+  nameWithType: UserControl1.DBClass.DBConnectionString
+  fullName: StoreManage.UserControl1.DBClass.DBConnectionString
+  type: Field
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: DBConnectionString
+    path: UserControl1.cs
+    startLine: 934
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string DBConnectionString
+    return:
+      type: System.String
+    content.vb: Public DBConnectionString As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.DBClass.#ctor
+  commentId: M:StoreManage.UserControl1.DBClass.#ctor
+  id: '#ctor'
+  parent: StoreManage.UserControl1.DBClass
+  langs:
+  - csharp
+  - vb
+  name: DBClass()
+  nameWithType: UserControl1.DBClass.DBClass()
+  fullName: StoreManage.UserControl1.DBClass.DBClass()
+  type: Constructor
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: .ctor
+    path: UserControl1.cs
+    startLine: 937
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DBClass()
+    content.vb: Public Sub New
+  overload: StoreManage.UserControl1.DBClass.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.DBClass.ConnectionOpen
+  commentId: M:StoreManage.UserControl1.DBClass.ConnectionOpen
+  id: ConnectionOpen
+  parent: StoreManage.UserControl1.DBClass
+  langs:
+  - csharp
+  - vb
+  name: ConnectionOpen()
+  nameWithType: UserControl1.DBClass.ConnectionOpen()
+  fullName: StoreManage.UserControl1.DBClass.ConnectionOpen()
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: ConnectionOpen
+    path: UserControl1.cs
+    startLine: 955
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public void ConnectionOpen()
+    content.vb: Public Sub ConnectionOpen
+  overload: StoreManage.UserControl1.DBClass.ConnectionOpen*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.DBClass.ConnectionClose
+  commentId: M:StoreManage.UserControl1.DBClass.ConnectionClose
+  id: ConnectionClose
+  parent: StoreManage.UserControl1.DBClass
+  langs:
+  - csharp
+  - vb
+  name: ConnectionClose()
+  nameWithType: UserControl1.DBClass.ConnectionClose()
+  fullName: StoreManage.UserControl1.DBClass.ConnectionClose()
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: ConnectionClose
+    path: UserControl1.cs
+    startLine: 970
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public void ConnectionClose()
+    content.vb: Public Sub ConnectionClose
+  overload: StoreManage.UserControl1.DBClass.ConnectionClose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.DBClass.DataFill(System.String)
+  commentId: M:StoreManage.UserControl1.DBClass.DataFill(System.String)
+  id: DataFill(System.String)
+  parent: StoreManage.UserControl1.DBClass
+  langs:
+  - csharp
+  - vb
+  name: DataFill(String)
+  nameWithType: UserControl1.DBClass.DataFill(String)
+  fullName: StoreManage.UserControl1.DBClass.DataFill(System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: DataFill
+    path: UserControl1.cs
+    startLine: 982
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DataTable DataFill(string sQuery)
+    parameters:
+    - id: sQuery
+      type: System.String
+    return:
+      type: System.Data.DataTable
+    content.vb: Public Function DataFill(sQuery As String) As DataTable
+  overload: StoreManage.UserControl1.DBClass.DataFill*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.DBClass.DataSetGrid(System.String)
+  commentId: M:StoreManage.UserControl1.DBClass.DataSetGrid(System.String)
+  id: DataSetGrid(System.String)
+  parent: StoreManage.UserControl1.DBClass
+  langs:
+  - csharp
+  - vb
+  name: DataSetGrid(String)
+  nameWithType: UserControl1.DBClass.DataSetGrid(String)
+  fullName: StoreManage.UserControl1.DBClass.DataSetGrid(System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: DataSetGrid
+    path: UserControl1.cs
+    startLine: 994
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DataSet DataSetGrid(string sQuery)
+    parameters:
+    - id: sQuery
+      type: System.String
+    return:
+      type: System.Data.DataSet
+    content.vb: Public Function DataSetGrid(sQuery As String) As DataSet
+  overload: StoreManage.UserControl1.DBClass.DataSetGrid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.DBClass.DataNonQuery(System.String)
+  commentId: M:StoreManage.UserControl1.DBClass.DataNonQuery(System.String)
+  id: DataNonQuery(System.String)
+  parent: StoreManage.UserControl1.DBClass
+  langs:
+  - csharp
+  - vb
+  name: DataNonQuery(String)
+  nameWithType: UserControl1.DBClass.DataNonQuery(String)
+  fullName: StoreManage.UserControl1.DBClass.DataNonQuery(System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: DataNonQuery
+    path: UserControl1.cs
+    startLine: 1005
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public int DataNonQuery(string sQuery)
+    parameters:
+    - id: sQuery
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function DataNonQuery(sQuery As String) As Integer
+  overload: StoreManage.UserControl1.DBClass.DataNonQuery*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.DBClass.DataScalar(System.String)
+  commentId: M:StoreManage.UserControl1.DBClass.DataScalar(System.String)
+  id: DataScalar(System.String)
+  parent: StoreManage.UserControl1.DBClass
+  langs:
+  - csharp
+  - vb
+  name: DataScalar(String)
+  nameWithType: UserControl1.DBClass.DataScalar(String)
+  fullName: StoreManage.UserControl1.DBClass.DataScalar(System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: DataScalar
+    path: UserControl1.cs
+    startLine: 1018
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public object DataScalar(string sQuery)
+    parameters:
+    - id: sQuery
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Function DataScalar(sQuery As String) As Object
+  overload: StoreManage.UserControl1.DBClass.DataScalar*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.DBClass.DataInsert(System.String)
+  commentId: M:StoreManage.UserControl1.DBClass.DataInsert(System.String)
+  id: DataInsert(System.String)
+  parent: StoreManage.UserControl1.DBClass
+  langs:
+  - csharp
+  - vb
+  name: DataInsert(String)
+  nameWithType: UserControl1.DBClass.DataInsert(String)
+  fullName: StoreManage.UserControl1.DBClass.DataInsert(System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: DataInsert
+    path: UserControl1.cs
+    startLine: 1042
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public int DataInsert(string sQury)
+    parameters:
+    - id: sQury
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function DataInsert(sQury As String) As Integer
+  overload: StoreManage.UserControl1.DBClass.DataInsert*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: StoreManage
+  commentId: N:StoreManage
+  name: StoreManage
+  nameWithType: StoreManage
+  fullName: StoreManage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MySql.Data.MySqlClient.MySqlConnection
+  commentId: T:MySql.Data.MySqlClient.MySqlConnection
+  parent: MySql.Data.MySqlClient
+  isExternal: true
+  name: MySqlConnection
+  nameWithType: MySqlConnection
+  fullName: MySql.Data.MySqlClient.MySqlConnection
+- uid: MySql.Data.MySqlClient
+  commentId: N:MySql.Data.MySqlClient
+  isExternal: true
+  name: MySql.Data.MySqlClient
+  nameWithType: MySql.Data.MySqlClient
+  fullName: MySql.Data.MySqlClient
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StoreManage.UserControl1.DBClass.#ctor*
+  commentId: Overload:StoreManage.UserControl1.DBClass.#ctor
+  name: DBClass
+  nameWithType: UserControl1.DBClass.DBClass
+  fullName: StoreManage.UserControl1.DBClass.DBClass
+- uid: StoreManage.UserControl1.DBClass.ConnectionOpen*
+  commentId: Overload:StoreManage.UserControl1.DBClass.ConnectionOpen
+  name: ConnectionOpen
+  nameWithType: UserControl1.DBClass.ConnectionOpen
+  fullName: StoreManage.UserControl1.DBClass.ConnectionOpen
+- uid: StoreManage.UserControl1.DBClass.ConnectionClose*
+  commentId: Overload:StoreManage.UserControl1.DBClass.ConnectionClose
+  name: ConnectionClose
+  nameWithType: UserControl1.DBClass.ConnectionClose
+  fullName: StoreManage.UserControl1.DBClass.ConnectionClose
+- uid: StoreManage.UserControl1.DBClass.DataFill*
+  commentId: Overload:StoreManage.UserControl1.DBClass.DataFill
+  name: DataFill
+  nameWithType: UserControl1.DBClass.DataFill
+  fullName: StoreManage.UserControl1.DBClass.DataFill
+- uid: System.Data.DataTable
+  commentId: T:System.Data.DataTable
+  parent: System.Data
+  isExternal: true
+  name: DataTable
+  nameWithType: DataTable
+  fullName: System.Data.DataTable
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+- uid: StoreManage.UserControl1.DBClass.DataSetGrid*
+  commentId: Overload:StoreManage.UserControl1.DBClass.DataSetGrid
+  name: DataSetGrid
+  nameWithType: UserControl1.DBClass.DataSetGrid
+  fullName: StoreManage.UserControl1.DBClass.DataSetGrid
+- uid: System.Data.DataSet
+  commentId: T:System.Data.DataSet
+  parent: System.Data
+  isExternal: true
+  name: DataSet
+  nameWithType: DataSet
+  fullName: System.Data.DataSet
+- uid: StoreManage.UserControl1.DBClass.DataNonQuery*
+  commentId: Overload:StoreManage.UserControl1.DBClass.DataNonQuery
+  name: DataNonQuery
+  nameWithType: UserControl1.DBClass.DataNonQuery
+  fullName: StoreManage.UserControl1.DBClass.DataNonQuery
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: StoreManage.UserControl1.DBClass.DataScalar*
+  commentId: Overload:StoreManage.UserControl1.DBClass.DataScalar
+  name: DataScalar
+  nameWithType: UserControl1.DBClass.DataScalar
+  fullName: StoreManage.UserControl1.DBClass.DataScalar
+- uid: StoreManage.UserControl1.DBClass.DataInsert*
+  commentId: Overload:StoreManage.UserControl1.DBClass.DataInsert
+  name: DataInsert
+  nameWithType: UserControl1.DBClass.DataInsert
+  fullName: StoreManage.UserControl1.DBClass.DataInsert

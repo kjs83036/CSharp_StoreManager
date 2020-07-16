@@ -1,0 +1,930 @@
+### YamlMime:ManagedReference
+items:
+- uid: StoreManage.St_table
+  commentId: T:StoreManage.St_table
+  id: St_table
+  parent: StoreManage
+  children:
+  - StoreManage.St_table.St_addr1
+  - StoreManage.St_table.St_addr2
+  - StoreManage.St_table.St_code
+  - StoreManage.St_table.St_contractdate
+  - StoreManage.St_table.St_contractdate2
+  - StoreManage.St_table.St_date
+  - StoreManage.St_table.St_ele_date
+  - StoreManage.St_table.St_info1
+  - StoreManage.St_table.St_info2
+  - StoreManage.St_table.St_maint_date
+  - StoreManage.St_table.St_manager
+  - StoreManage.St_table.St_name
+  - StoreManage.St_table.St_sudo_date
+  - StoreManage.St_table.St_zip
+  langs:
+  - csharp
+  - vb
+  name: St_table
+  nameWithType: St_table
+  fullName: StoreManage.St_table
+  type: Class
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_table
+    path: CommonByKjs.cs
+    startLine: 17
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public class St_table
+    content.vb: Public Class St_table
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StoreManage.St_table.St_code
+  commentId: P:StoreManage.St_table.St_code
+  id: St_code
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_code
+  nameWithType: St_table.St_code
+  fullName: StoreManage.St_table.St_code
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_code
+    path: CommonByKjs.cs
+    startLine: 20
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string St_code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property St_code As String
+  overload: StoreManage.St_table.St_code*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_table.St_name
+  commentId: P:StoreManage.St_table.St_name
+  id: St_name
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_name
+  nameWithType: St_table.St_name
+  fullName: StoreManage.St_table.St_name
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_name
+    path: CommonByKjs.cs
+    startLine: 22
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string St_name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property St_name As String
+  overload: StoreManage.St_table.St_name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_table.St_manager
+  commentId: P:StoreManage.St_table.St_manager
+  id: St_manager
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_manager
+  nameWithType: St_table.St_manager
+  fullName: StoreManage.St_table.St_manager
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_manager
+    path: CommonByKjs.cs
+    startLine: 24
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string St_manager { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property St_manager As String
+  overload: StoreManage.St_table.St_manager*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_table.St_addr1
+  commentId: P:StoreManage.St_table.St_addr1
+  id: St_addr1
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_addr1
+  nameWithType: St_table.St_addr1
+  fullName: StoreManage.St_table.St_addr1
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_addr1
+    path: CommonByKjs.cs
+    startLine: 26
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string St_addr1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property St_addr1 As String
+  overload: StoreManage.St_table.St_addr1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_table.St_addr2
+  commentId: P:StoreManage.St_table.St_addr2
+  id: St_addr2
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_addr2
+  nameWithType: St_table.St_addr2
+  fullName: StoreManage.St_table.St_addr2
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_addr2
+    path: CommonByKjs.cs
+    startLine: 27
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string St_addr2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property St_addr2 As String
+  overload: StoreManage.St_table.St_addr2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_table.St_zip
+  commentId: P:StoreManage.St_table.St_zip
+  id: St_zip
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_zip
+  nameWithType: St_table.St_zip
+  fullName: StoreManage.St_table.St_zip
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_zip
+    path: CommonByKjs.cs
+    startLine: 30
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string St_zip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property St_zip As String
+  overload: StoreManage.St_table.St_zip*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_table.St_contractdate
+  commentId: P:StoreManage.St_table.St_contractdate
+  id: St_contractdate
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_contractdate
+  nameWithType: St_table.St_contractdate
+  fullName: StoreManage.St_table.St_contractdate
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_contractdate
+    path: CommonByKjs.cs
+    startLine: 32
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DateTime St_contractdate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property St_contractdate As Date
+  overload: StoreManage.St_table.St_contractdate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_table.St_contractdate2
+  commentId: P:StoreManage.St_table.St_contractdate2
+  id: St_contractdate2
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_contractdate2
+  nameWithType: St_table.St_contractdate2
+  fullName: StoreManage.St_table.St_contractdate2
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_contractdate2
+    path: CommonByKjs.cs
+    startLine: 33
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DateTime St_contractdate2 { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property St_contractdate2 As Date
+  overload: StoreManage.St_table.St_contractdate2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_table.St_info1
+  commentId: P:StoreManage.St_table.St_info1
+  id: St_info1
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_info1
+  nameWithType: St_table.St_info1
+  fullName: StoreManage.St_table.St_info1
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_info1
+    path: CommonByKjs.cs
+    startLine: 35
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string St_info1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property St_info1 As String
+  overload: StoreManage.St_table.St_info1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_table.St_info2
+  commentId: P:StoreManage.St_table.St_info2
+  id: St_info2
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_info2
+  nameWithType: St_table.St_info2
+  fullName: StoreManage.St_table.St_info2
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_info2
+    path: CommonByKjs.cs
+    startLine: 37
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string St_info2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property St_info2 As String
+  overload: StoreManage.St_table.St_info2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_table.St_date
+  commentId: P:StoreManage.St_table.St_date
+  id: St_date
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_date
+  nameWithType: St_table.St_date
+  fullName: StoreManage.St_table.St_date
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_date
+    path: CommonByKjs.cs
+    startLine: 39
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DateTime St_date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property St_date As Date
+  overload: StoreManage.St_table.St_date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_table.St_maint_date
+  commentId: P:StoreManage.St_table.St_maint_date
+  id: St_maint_date
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_maint_date
+  nameWithType: St_table.St_maint_date
+  fullName: StoreManage.St_table.St_maint_date
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_maint_date
+    path: CommonByKjs.cs
+    startLine: 40
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DateTime St_maint_date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property St_maint_date As Date
+  overload: StoreManage.St_table.St_maint_date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_table.St_ele_date
+  commentId: P:StoreManage.St_table.St_ele_date
+  id: St_ele_date
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_ele_date
+  nameWithType: St_table.St_ele_date
+  fullName: StoreManage.St_table.St_ele_date
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_ele_date
+    path: CommonByKjs.cs
+    startLine: 41
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DateTime St_ele_date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property St_ele_date As Date
+  overload: StoreManage.St_table.St_ele_date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.St_table.St_sudo_date
+  commentId: P:StoreManage.St_table.St_sudo_date
+  id: St_sudo_date
+  parent: StoreManage.St_table
+  langs:
+  - csharp
+  - vb
+  name: St_sudo_date
+  nameWithType: St_table.St_sudo_date
+  fullName: StoreManage.St_table.St_sudo_date
+  type: Property
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: St_sudo_date
+    path: CommonByKjs.cs
+    startLine: 42
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DateTime St_sudo_date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property St_sudo_date As Date
+  overload: StoreManage.St_table.St_sudo_date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: StoreManage
+  commentId: N:StoreManage
+  name: StoreManage
+  nameWithType: StoreManage
+  fullName: StoreManage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StoreManage.St_table.St_code*
+  commentId: Overload:StoreManage.St_table.St_code
+  name: St_code
+  nameWithType: St_table.St_code
+  fullName: StoreManage.St_table.St_code
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StoreManage.St_table.St_name*
+  commentId: Overload:StoreManage.St_table.St_name
+  name: St_name
+  nameWithType: St_table.St_name
+  fullName: StoreManage.St_table.St_name
+- uid: StoreManage.St_table.St_manager*
+  commentId: Overload:StoreManage.St_table.St_manager
+  name: St_manager
+  nameWithType: St_table.St_manager
+  fullName: StoreManage.St_table.St_manager
+- uid: StoreManage.St_table.St_addr1*
+  commentId: Overload:StoreManage.St_table.St_addr1
+  name: St_addr1
+  nameWithType: St_table.St_addr1
+  fullName: StoreManage.St_table.St_addr1
+- uid: StoreManage.St_table.St_addr2*
+  commentId: Overload:StoreManage.St_table.St_addr2
+  name: St_addr2
+  nameWithType: St_table.St_addr2
+  fullName: StoreManage.St_table.St_addr2
+- uid: StoreManage.St_table.St_zip*
+  commentId: Overload:StoreManage.St_table.St_zip
+  name: St_zip
+  nameWithType: St_table.St_zip
+  fullName: StoreManage.St_table.St_zip
+- uid: StoreManage.St_table.St_contractdate*
+  commentId: Overload:StoreManage.St_table.St_contractdate
+  name: St_contractdate
+  nameWithType: St_table.St_contractdate
+  fullName: StoreManage.St_table.St_contractdate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: StoreManage.St_table.St_contractdate2*
+  commentId: Overload:StoreManage.St_table.St_contractdate2
+  name: St_contractdate2
+  nameWithType: St_table.St_contractdate2
+  fullName: StoreManage.St_table.St_contractdate2
+- uid: StoreManage.St_table.St_info1*
+  commentId: Overload:StoreManage.St_table.St_info1
+  name: St_info1
+  nameWithType: St_table.St_info1
+  fullName: StoreManage.St_table.St_info1
+- uid: StoreManage.St_table.St_info2*
+  commentId: Overload:StoreManage.St_table.St_info2
+  name: St_info2
+  nameWithType: St_table.St_info2
+  fullName: StoreManage.St_table.St_info2
+- uid: StoreManage.St_table.St_date*
+  commentId: Overload:StoreManage.St_table.St_date
+  name: St_date
+  nameWithType: St_table.St_date
+  fullName: StoreManage.St_table.St_date
+- uid: StoreManage.St_table.St_maint_date*
+  commentId: Overload:StoreManage.St_table.St_maint_date
+  name: St_maint_date
+  nameWithType: St_table.St_maint_date
+  fullName: StoreManage.St_table.St_maint_date
+- uid: StoreManage.St_table.St_ele_date*
+  commentId: Overload:StoreManage.St_table.St_ele_date
+  name: St_ele_date
+  nameWithType: St_table.St_ele_date
+  fullName: StoreManage.St_table.St_ele_date
+- uid: StoreManage.St_table.St_sudo_date*
+  commentId: Overload:StoreManage.St_table.St_sudo_date
+  name: St_sudo_date
+  nameWithType: St_table.St_sudo_date
+  fullName: StoreManage.St_table.St_sudo_date

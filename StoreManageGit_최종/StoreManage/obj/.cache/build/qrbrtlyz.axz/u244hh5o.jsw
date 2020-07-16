@@ -1,0 +1,83 @@
+
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="StoreManage.html" name="" title="StoreManage">StoreManage</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="StoreManage.Crud.html" name="" title="Crud">Crud</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.DbFactory.html" name="" title="DbFactory">DbFactory</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.Employee.html" name="" title="Employee">Employee</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.Expense.html" name="" title="Expense">Expense</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.Login.html" name="" title="Login">Login</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.SqlQuery.html" name="" title="SqlQuery">SqlQuery</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.St_emp_result.html" name="" title="St_emp_result">St_emp_result</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.St_table.html" name="" title="St_table">St_table</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.StoreManage.html" name="" title="StoreManage">StoreManage</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.TempCrudFunc.html" name="" title="TempCrudFunc">TempCrudFunc</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.TempFuncForWinform.html" name="" title="TempFuncForWinform">TempFuncForWinform</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.User_h.html" name="" title="User_h">User_h</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.User_t.html" name="" title="User_t">User_t</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.UserControl1.html" name="" title="UserControl1">UserControl1</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.UserControl1.DBClass.html" name="" title="UserControl1.DBClass">UserControl1.DBClass</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.UserControl1.employee.html" name="" title="UserControl1.employee">UserControl1.employee</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.UserControl1.make_qury.html" name="" title="UserControl1.make_qury">UserControl1.make_qury</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.UserControl1.Store.html" name="" title="UserControl1.Store">UserControl1.Store</a>
+                          </li>
+                          <li>
+                              <a href="StoreManage.UserControl2.html" name="" title="UserControl2">UserControl2</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,681 @@
+### YamlMime:ManagedReference
+items:
+- uid: StoreManage.TempCrudFunc
+  commentId: T:StoreManage.TempCrudFunc
+  id: TempCrudFunc
+  parent: StoreManage
+  children:
+  - StoreManage.TempCrudFunc.GetPropertyInfos``1(``0)
+  - StoreManage.TempCrudFunc.setColumns(System.Reflection.PropertyInfo[])
+  - StoreManage.TempCrudFunc.setSqlCommad(MySql.Data.MySqlClient.MySqlCommand,System.String[],System.Object[])
+  - StoreManage.TempCrudFunc.setSqlCommad(System.Data.SqlClient.SqlCommand,System.String[],System.Object[])
+  - StoreManage.TempCrudFunc.setValues``1(System.Reflection.PropertyInfo[],``0)
+  langs:
+  - csharp
+  - vb
+  name: TempCrudFunc
+  nameWithType: TempCrudFunc
+  fullName: StoreManage.TempCrudFunc
+  type: Class
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: TempCrudFunc
+    path: CommonByKjs.cs
+    startLine: 923
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public class TempCrudFunc
+    content.vb: Public Class TempCrudFunc
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StoreManage.TempCrudFunc.GetPropertyInfos``1(``0)
+  commentId: M:StoreManage.TempCrudFunc.GetPropertyInfos``1(``0)
+  id: GetPropertyInfos``1(``0)
+  parent: StoreManage.TempCrudFunc
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyInfos<T>(T)
+  nameWithType: TempCrudFunc.GetPropertyInfos<T>(T)
+  fullName: StoreManage.TempCrudFunc.GetPropertyInfos<T>(T)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: GetPropertyInfos
+    path: CommonByKjs.cs
+    startLine: 925
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public PropertyInfo[] GetPropertyInfos<T>(T t)
+    parameters:
+    - id: t
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Reflection.PropertyInfo[]
+    content.vb: Public Function GetPropertyInfos(Of T)(t As T) As PropertyInfo()
+  overload: StoreManage.TempCrudFunc.GetPropertyInfos*
+  nameWithType.vb: TempCrudFunc.GetPropertyInfos(Of T)(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.TempCrudFunc.GetPropertyInfos(Of T)(T)
+  name.vb: GetPropertyInfos(Of T)(T)
+- uid: StoreManage.TempCrudFunc.setValues``1(System.Reflection.PropertyInfo[],``0)
+  commentId: M:StoreManage.TempCrudFunc.setValues``1(System.Reflection.PropertyInfo[],``0)
+  id: setValues``1(System.Reflection.PropertyInfo[],``0)
+  parent: StoreManage.TempCrudFunc
+  langs:
+  - csharp
+  - vb
+  name: setValues<T>(PropertyInfo[], T)
+  nameWithType: TempCrudFunc.setValues<T>(PropertyInfo[], T)
+  fullName: StoreManage.TempCrudFunc.setValues<T>(System.Reflection.PropertyInfo[], T)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: setValues
+    path: CommonByKjs.cs
+    startLine: 934
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public object[] setValues<T>(PropertyInfo[] propertyInfos, T t)
+    parameters:
+    - id: propertyInfos
+      type: System.Reflection.PropertyInfo[]
+    - id: t
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Object[]
+    content.vb: Public Function setValues(Of T)(propertyInfos As PropertyInfo(), t As T) As Object()
+  overload: StoreManage.TempCrudFunc.setValues*
+  nameWithType.vb: TempCrudFunc.setValues(Of T)(PropertyInfo(), T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.TempCrudFunc.setValues(Of T)(System.Reflection.PropertyInfo(), T)
+  name.vb: setValues(Of T)(PropertyInfo(), T)
+- uid: StoreManage.TempCrudFunc.setColumns(System.Reflection.PropertyInfo[])
+  commentId: M:StoreManage.TempCrudFunc.setColumns(System.Reflection.PropertyInfo[])
+  id: setColumns(System.Reflection.PropertyInfo[])
+  parent: StoreManage.TempCrudFunc
+  langs:
+  - csharp
+  - vb
+  name: setColumns(PropertyInfo[])
+  nameWithType: TempCrudFunc.setColumns(PropertyInfo[])
+  fullName: StoreManage.TempCrudFunc.setColumns(System.Reflection.PropertyInfo[])
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: setColumns
+    path: CommonByKjs.cs
+    startLine: 944
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string[] setColumns(PropertyInfo[] propertyInfos)
+    parameters:
+    - id: propertyInfos
+      type: System.Reflection.PropertyInfo[]
+    return:
+      type: System.String[]
+    content.vb: Public Function setColumns(propertyInfos As PropertyInfo()) As String()
+  overload: StoreManage.TempCrudFunc.setColumns*
+  nameWithType.vb: TempCrudFunc.setColumns(PropertyInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.TempCrudFunc.setColumns(System.Reflection.PropertyInfo())
+  name.vb: setColumns(PropertyInfo())
+- uid: StoreManage.TempCrudFunc.setSqlCommad(System.Data.SqlClient.SqlCommand,System.String[],System.Object[])
+  commentId: M:StoreManage.TempCrudFunc.setSqlCommad(System.Data.SqlClient.SqlCommand,System.String[],System.Object[])
+  id: setSqlCommad(System.Data.SqlClient.SqlCommand,System.String[],System.Object[])
+  parent: StoreManage.TempCrudFunc
+  langs:
+  - csharp
+  - vb
+  name: setSqlCommad(SqlCommand, String[], Object[])
+  nameWithType: TempCrudFunc.setSqlCommad(SqlCommand, String[], Object[])
+  fullName: StoreManage.TempCrudFunc.setSqlCommad(System.Data.SqlClient.SqlCommand, System.String[], System.Object[])
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: setSqlCommad
+    path: CommonByKjs.cs
+    startLine: 954
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public void setSqlCommad(SqlCommand sqlCmd, string[] columns, object[] values)
+    parameters:
+    - id: sqlCmd
+      type: System.Data.SqlClient.SqlCommand
+    - id: columns
+      type: System.String[]
+    - id: values
+      type: System.Object[]
+    content.vb: Public Sub setSqlCommad(sqlCmd As SqlCommand, columns As String(), values As Object())
+  overload: StoreManage.TempCrudFunc.setSqlCommad*
+  nameWithType.vb: TempCrudFunc.setSqlCommad(SqlCommand, String(), Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.TempCrudFunc.setSqlCommad(System.Data.SqlClient.SqlCommand, System.String(), System.Object())
+  name.vb: setSqlCommad(SqlCommand, String(), Object())
+- uid: StoreManage.TempCrudFunc.setSqlCommad(MySql.Data.MySqlClient.MySqlCommand,System.String[],System.Object[])
+  commentId: M:StoreManage.TempCrudFunc.setSqlCommad(MySql.Data.MySqlClient.MySqlCommand,System.String[],System.Object[])
+  id: setSqlCommad(MySql.Data.MySqlClient.MySqlCommand,System.String[],System.Object[])
+  parent: StoreManage.TempCrudFunc
+  langs:
+  - csharp
+  - vb
+  name: setSqlCommad(MySqlCommand, String[], Object[])
+  nameWithType: TempCrudFunc.setSqlCommad(MySqlCommand, String[], Object[])
+  fullName: StoreManage.TempCrudFunc.setSqlCommad(MySql.Data.MySqlClient.MySqlCommand, System.String[], System.Object[])
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: setSqlCommad
+    path: CommonByKjs.cs
+    startLine: 963
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public void setSqlCommad(MySqlCommand sqlCmd, string[] columns, object[] values)
+    parameters:
+    - id: sqlCmd
+      type: MySql.Data.MySqlClient.MySqlCommand
+    - id: columns
+      type: System.String[]
+    - id: values
+      type: System.Object[]
+    content.vb: Public Sub setSqlCommad(sqlCmd As MySqlCommand, columns As String(), values As Object())
+  overload: StoreManage.TempCrudFunc.setSqlCommad*
+  nameWithType.vb: TempCrudFunc.setSqlCommad(MySqlCommand, String(), Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.TempCrudFunc.setSqlCommad(MySql.Data.MySqlClient.MySqlCommand, System.String(), System.Object())
+  name.vb: setSqlCommad(MySqlCommand, String(), Object())
+references:
+- uid: StoreManage
+  commentId: N:StoreManage
+  name: StoreManage
+  nameWithType: StoreManage
+  fullName: StoreManage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StoreManage.TempCrudFunc.GetPropertyInfos*
+  commentId: Overload:StoreManage.TempCrudFunc.GetPropertyInfos
+  name: GetPropertyInfos
+  nameWithType: TempCrudFunc.GetPropertyInfos
+  fullName: StoreManage.TempCrudFunc.GetPropertyInfos
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Reflection.PropertyInfo[]
+  isExternal: true
+  name: PropertyInfo[]
+  nameWithType: PropertyInfo[]
+  fullName: System.Reflection.PropertyInfo[]
+  nameWithType.vb: PropertyInfo()
+  fullName.vb: System.Reflection.PropertyInfo()
+  name.vb: PropertyInfo()
+  spec.csharp:
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: StoreManage.TempCrudFunc.setValues*
+  commentId: Overload:StoreManage.TempCrudFunc.setValues
+  name: setValues
+  nameWithType: TempCrudFunc.setValues
+  fullName: StoreManage.TempCrudFunc.setValues
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: StoreManage.TempCrudFunc.setColumns*
+  commentId: Overload:StoreManage.TempCrudFunc.setColumns
+  name: setColumns
+  nameWithType: TempCrudFunc.setColumns
+  fullName: StoreManage.TempCrudFunc.setColumns
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: StoreManage.TempCrudFunc.setSqlCommad*
+  commentId: Overload:StoreManage.TempCrudFunc.setSqlCommad
+  name: setSqlCommad
+  nameWithType: TempCrudFunc.setSqlCommad
+  fullName: StoreManage.TempCrudFunc.setSqlCommad
+- uid: System.Data.SqlClient.SqlCommand
+  commentId: T:System.Data.SqlClient.SqlCommand
+  parent: System.Data.SqlClient
+  isExternal: true
+  name: SqlCommand
+  nameWithType: SqlCommand
+  fullName: System.Data.SqlClient.SqlCommand
+- uid: System.Data.SqlClient
+  commentId: N:System.Data.SqlClient
+  isExternal: true
+  name: System.Data.SqlClient
+  nameWithType: System.Data.SqlClient
+  fullName: System.Data.SqlClient
+- uid: MySql.Data.MySqlClient.MySqlCommand
+  commentId: T:MySql.Data.MySqlClient.MySqlCommand
+  parent: MySql.Data.MySqlClient
+  isExternal: true
+  name: MySqlCommand
+  nameWithType: MySqlCommand
+  fullName: MySql.Data.MySqlClient.MySqlCommand
+- uid: MySql.Data.MySqlClient
+  commentId: N:MySql.Data.MySqlClient
+  isExternal: true
+  name: MySql.Data.MySqlClient
+  nameWithType: MySql.Data.MySqlClient
+  fullName: MySql.Data.MySqlClient

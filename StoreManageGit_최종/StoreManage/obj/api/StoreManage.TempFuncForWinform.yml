@@ -1,0 +1,477 @@
+### YamlMime:ManagedReference
+items:
+- uid: StoreManage.TempFuncForWinform
+  commentId: T:StoreManage.TempFuncForWinform
+  id: TempFuncForWinform
+  parent: StoreManage
+  children:
+  - StoreManage.TempFuncForWinform.clearTextBox(System.Windows.Forms.TextBox[])
+  - StoreManage.TempFuncForWinform.setDataGridView(System.Data.DataSet,System.Windows.Forms.DataGridView)
+  langs:
+  - csharp
+  - vb
+  name: TempFuncForWinform
+  nameWithType: TempFuncForWinform
+  fullName: StoreManage.TempFuncForWinform
+  type: Class
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: TempFuncForWinform
+    path: CommonByKjs.cs
+    startLine: 1021
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public class TempFuncForWinform
+    content.vb: Public Class TempFuncForWinform
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StoreManage.TempFuncForWinform.setDataGridView(System.Data.DataSet,System.Windows.Forms.DataGridView)
+  commentId: M:StoreManage.TempFuncForWinform.setDataGridView(System.Data.DataSet,System.Windows.Forms.DataGridView)
+  id: setDataGridView(System.Data.DataSet,System.Windows.Forms.DataGridView)
+  parent: StoreManage.TempFuncForWinform
+  langs:
+  - csharp
+  - vb
+  name: setDataGridView(DataSet, DataGridView)
+  nameWithType: TempFuncForWinform.setDataGridView(DataSet, DataGridView)
+  fullName: StoreManage.TempFuncForWinform.setDataGridView(System.Data.DataSet, System.Windows.Forms.DataGridView)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: setDataGridView
+    path: CommonByKjs.cs
+    startLine: 1023
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public void setDataGridView(DataSet dataset, DataGridView datagridview)
+    parameters:
+    - id: dataset
+      type: System.Data.DataSet
+    - id: datagridview
+      type: System.Windows.Forms.DataGridView
+    content.vb: Public Sub setDataGridView(dataset As DataSet, datagridview As DataGridView)
+  overload: StoreManage.TempFuncForWinform.setDataGridView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.TempFuncForWinform.clearTextBox(System.Windows.Forms.TextBox[])
+  commentId: M:StoreManage.TempFuncForWinform.clearTextBox(System.Windows.Forms.TextBox[])
+  id: clearTextBox(System.Windows.Forms.TextBox[])
+  parent: StoreManage.TempFuncForWinform
+  langs:
+  - csharp
+  - vb
+  name: clearTextBox(TextBox[])
+  nameWithType: TempFuncForWinform.clearTextBox(TextBox[])
+  fullName: StoreManage.TempFuncForWinform.clearTextBox(System.Windows.Forms.TextBox[])
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: clearTextBox
+    path: CommonByKjs.cs
+    startLine: 1066
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public void clearTextBox(TextBox[] ArrayTextBoxs)
+    parameters:
+    - id: ArrayTextBoxs
+      type: System.Windows.Forms.TextBox[]
+    content.vb: Public Sub clearTextBox(ArrayTextBoxs As TextBox())
+  overload: StoreManage.TempFuncForWinform.clearTextBox*
+  nameWithType.vb: TempFuncForWinform.clearTextBox(TextBox())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.TempFuncForWinform.clearTextBox(System.Windows.Forms.TextBox())
+  name.vb: clearTextBox(TextBox())
+references:
+- uid: StoreManage
+  commentId: N:StoreManage
+  name: StoreManage
+  nameWithType: StoreManage
+  fullName: StoreManage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StoreManage.TempFuncForWinform.setDataGridView*
+  commentId: Overload:StoreManage.TempFuncForWinform.setDataGridView
+  name: setDataGridView
+  nameWithType: TempFuncForWinform.setDataGridView
+  fullName: StoreManage.TempFuncForWinform.setDataGridView
+- uid: System.Data.DataSet
+  commentId: T:System.Data.DataSet
+  parent: System.Data
+  isExternal: true
+  name: DataSet
+  nameWithType: DataSet
+  fullName: System.Data.DataSet
+- uid: System.Windows.Forms.DataGridView
+  commentId: T:System.Windows.Forms.DataGridView
+  parent: System.Windows.Forms
+  isExternal: true
+  name: DataGridView
+  nameWithType: DataGridView
+  fullName: System.Windows.Forms.DataGridView
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+- uid: System.Windows.Forms
+  commentId: N:System.Windows.Forms
+  isExternal: true
+  name: System.Windows.Forms
+  nameWithType: System.Windows.Forms
+  fullName: System.Windows.Forms
+- uid: StoreManage.TempFuncForWinform.clearTextBox*
+  commentId: Overload:StoreManage.TempFuncForWinform.clearTextBox
+  name: clearTextBox
+  nameWithType: TempFuncForWinform.clearTextBox
+  fullName: StoreManage.TempFuncForWinform.clearTextBox
+- uid: System.Windows.Forms.TextBox[]
+  isExternal: true
+  name: TextBox[]
+  nameWithType: TextBox[]
+  fullName: System.Windows.Forms.TextBox[]
+  nameWithType.vb: TextBox()
+  fullName.vb: System.Windows.Forms.TextBox()
+  name.vb: TextBox()
+  spec.csharp:
+  - uid: System.Windows.Forms.TextBox
+    name: TextBox
+    nameWithType: TextBox
+    fullName: System.Windows.Forms.TextBox
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Windows.Forms.TextBox
+    name: TextBox
+    nameWithType: TextBox
+    fullName: System.Windows.Forms.TextBox
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

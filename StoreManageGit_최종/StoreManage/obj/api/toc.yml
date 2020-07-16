@@ -1,0 +1,42 @@
+### YamlMime:TableOfContent
+- uid: StoreManage
+  name: StoreManage
+  items:
+  - uid: StoreManage.Crud
+    name: Crud
+  - uid: StoreManage.DbFactory
+    name: DbFactory
+  - uid: StoreManage.Employee
+    name: Employee
+  - uid: StoreManage.Expense
+    name: Expense
+  - uid: StoreManage.Login
+    name: Login
+  - uid: StoreManage.SqlQuery
+    name: SqlQuery
+  - uid: StoreManage.St_emp_result
+    name: St_emp_result
+  - uid: StoreManage.St_table
+    name: St_table
+  - uid: StoreManage.StoreManage
+    name: StoreManage
+  - uid: StoreManage.TempCrudFunc
+    name: TempCrudFunc
+  - uid: StoreManage.TempFuncForWinform
+    name: TempFuncForWinform
+  - uid: StoreManage.User_h
+    name: User_h
+  - uid: StoreManage.User_t
+    name: User_t
+  - uid: StoreManage.UserControl1
+    name: UserControl1
+  - uid: StoreManage.UserControl1.DBClass
+    name: UserControl1.DBClass
+  - uid: StoreManage.UserControl1.employee
+    name: UserControl1.employee
+  - uid: StoreManage.UserControl1.make_qury
+    name: UserControl1.make_qury
+  - uid: StoreManage.UserControl1.Store
+    name: UserControl1.Store
+  - uid: StoreManage.UserControl2
+    name: UserControl2

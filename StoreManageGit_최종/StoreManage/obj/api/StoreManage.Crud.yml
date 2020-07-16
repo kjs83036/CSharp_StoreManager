@@ -1,0 +1,1121 @@
+### YamlMime:ManagedReference
+items:
+- uid: StoreManage.Crud
+  commentId: T:StoreManage.Crud
+  id: Crud
+  parent: StoreManage
+  children:
+  - StoreManage.Crud.#ctor(System.String)
+  - StoreManage.Crud.Create_MS``1(System.String,``0)
+  - StoreManage.Crud.Create_MySql``1(System.String,``0)
+  - StoreManage.Crud.Delete_MS``1(System.String,``0)
+  - StoreManage.Crud.Delete_MySql``1(System.String,``0)
+  - StoreManage.Crud.Read_MS``1(System.String,``0)
+  - StoreManage.Crud.Read_MS``1(System.String,``0,System.Int32[])
+  - StoreManage.Crud.Read_MySql``1(System.String,``0)
+  - StoreManage.Crud.Read_MySql``1(System.String,``0,System.Int32[])
+  - StoreManage.Crud.ReadToGrid_MS(System.String)
+  - StoreManage.Crud.ReadToGrid_MySql(System.String)
+  - StoreManage.Crud.sqlTran(MySql.Data.MySqlClient.MySqlConnection,MySql.Data.MySqlClient.MySqlCommand)
+  - StoreManage.Crud.sqlTran(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlCommand)
+  - StoreManage.Crud.Update_MS``1(System.String,``0)
+  - StoreManage.Crud.Update_MySql``1(System.String,``0)
+  langs:
+  - csharp
+  - vb
+  name: Crud
+  nameWithType: Crud
+  fullName: StoreManage.Crud
+  type: Class
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: Crud
+    path: CommonByKjs.cs
+    startLine: 253
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public class Crud
+    content.vb: Public Class Crud
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StoreManage.Crud.#ctor(System.String)
+  commentId: M:StoreManage.Crud.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: Crud(String)
+  nameWithType: Crud.Crud(String)
+  fullName: StoreManage.Crud.Crud(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: .ctor
+    path: CommonByKjs.cs
+    startLine: 259
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public Crud(string connectionString)
+    parameters:
+    - id: connectionString
+      type: System.String
+    content.vb: Public Sub New(connectionString As String)
+  overload: StoreManage.Crud.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Crud.Create_MS``1(System.String,``0)
+  commentId: M:StoreManage.Crud.Create_MS``1(System.String,``0)
+  id: Create_MS``1(System.String,``0)
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: Create_MS<T>(String, T)
+  nameWithType: Crud.Create_MS<T>(String, T)
+  fullName: StoreManage.Crud.Create_MS<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: Create_MS
+    path: CommonByKjs.cs
+    startLine: 268
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public int Create_MS<T>(string query, T t)
+    parameters:
+    - id: query
+      type: System.String
+    - id: t
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+    content.vb: Public Function Create_MS(Of T)(query As String, t As T) As Integer
+  overload: StoreManage.Crud.Create_MS*
+  nameWithType.vb: Crud.Create_MS(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.Crud.Create_MS(Of T)(System.String, T)
+  name.vb: Create_MS(Of T)(String, T)
+- uid: StoreManage.Crud.Create_MySql``1(System.String,``0)
+  commentId: M:StoreManage.Crud.Create_MySql``1(System.String,``0)
+  id: Create_MySql``1(System.String,``0)
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: Create_MySql<T>(String, T)
+  nameWithType: Crud.Create_MySql<T>(String, T)
+  fullName: StoreManage.Crud.Create_MySql<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: Create_MySql
+    path: CommonByKjs.cs
+    startLine: 292
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public int Create_MySql<T>(string query, T t)
+    parameters:
+    - id: query
+      type: System.String
+    - id: t
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+    content.vb: Public Function Create_MySql(Of T)(query As String, t As T) As Integer
+  overload: StoreManage.Crud.Create_MySql*
+  nameWithType.vb: Crud.Create_MySql(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.Crud.Create_MySql(Of T)(System.String, T)
+  name.vb: Create_MySql(Of T)(String, T)
+- uid: StoreManage.Crud.Read_MS``1(System.String,``0)
+  commentId: M:StoreManage.Crud.Read_MS``1(System.String,``0)
+  id: Read_MS``1(System.String,``0)
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: Read_MS<T>(String, T)
+  nameWithType: Crud.Read_MS<T>(String, T)
+  fullName: StoreManage.Crud.Read_MS<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: Read_MS
+    path: CommonByKjs.cs
+    startLine: 318
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public T Read_MS<T>(string query, T t)
+    parameters:
+    - id: query
+      type: System.String
+    - id: t
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function Read_MS(Of T)(query As String, t As T) As T
+  overload: StoreManage.Crud.Read_MS*
+  nameWithType.vb: Crud.Read_MS(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.Crud.Read_MS(Of T)(System.String, T)
+  name.vb: Read_MS(Of T)(String, T)
+- uid: StoreManage.Crud.Read_MySql``1(System.String,``0)
+  commentId: M:StoreManage.Crud.Read_MySql``1(System.String,``0)
+  id: Read_MySql``1(System.String,``0)
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: Read_MySql<T>(String, T)
+  nameWithType: Crud.Read_MySql<T>(String, T)
+  fullName: StoreManage.Crud.Read_MySql<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: Read_MySql
+    path: CommonByKjs.cs
+    startLine: 359
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public T Read_MySql<T>(string query, T t)
+    parameters:
+    - id: query
+      type: System.String
+    - id: t
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function Read_MySql(Of T)(query As String, t As T) As T
+  overload: StoreManage.Crud.Read_MySql*
+  nameWithType.vb: Crud.Read_MySql(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.Crud.Read_MySql(Of T)(System.String, T)
+  name.vb: Read_MySql(Of T)(String, T)
+- uid: StoreManage.Crud.Read_MS``1(System.String,``0,System.Int32[])
+  commentId: M:StoreManage.Crud.Read_MS``1(System.String,``0,System.Int32[])
+  id: Read_MS``1(System.String,``0,System.Int32[])
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: Read_MS<T>(String, T, Int32[])
+  nameWithType: Crud.Read_MS<T>(String, T, Int32[])
+  fullName: StoreManage.Crud.Read_MS<T>(System.String, T, System.Int32[])
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: Read_MS
+    path: CommonByKjs.cs
+    startLine: 408
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public T Read_MS<T>(string query, T t, int[] columnNum)
+    parameters:
+    - id: query
+      type: System.String
+    - id: t
+      type: '{T}'
+    - id: columnNum
+      type: System.Int32[]
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function Read_MS(Of T)(query As String, t As T, columnNum As Integer()) As T
+  overload: StoreManage.Crud.Read_MS*
+  nameWithType.vb: Crud.Read_MS(Of T)(String, T, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.Crud.Read_MS(Of T)(System.String, T, System.Int32())
+  name.vb: Read_MS(Of T)(String, T, Int32())
+- uid: StoreManage.Crud.Read_MySql``1(System.String,``0,System.Int32[])
+  commentId: M:StoreManage.Crud.Read_MySql``1(System.String,``0,System.Int32[])
+  id: Read_MySql``1(System.String,``0,System.Int32[])
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: Read_MySql<T>(String, T, Int32[])
+  nameWithType: Crud.Read_MySql<T>(String, T, Int32[])
+  fullName: StoreManage.Crud.Read_MySql<T>(System.String, T, System.Int32[])
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: Read_MySql
+    path: CommonByKjs.cs
+    startLine: 445
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public T Read_MySql<T>(string query, T t, int[] columnNum)
+    parameters:
+    - id: query
+      type: System.String
+    - id: t
+      type: '{T}'
+    - id: columnNum
+      type: System.Int32[]
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function Read_MySql(Of T)(query As String, t As T, columnNum As Integer()) As T
+  overload: StoreManage.Crud.Read_MySql*
+  nameWithType.vb: Crud.Read_MySql(Of T)(String, T, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.Crud.Read_MySql(Of T)(System.String, T, System.Int32())
+  name.vb: Read_MySql(Of T)(String, T, Int32())
+- uid: StoreManage.Crud.ReadToGrid_MS(System.String)
+  commentId: M:StoreManage.Crud.ReadToGrid_MS(System.String)
+  id: ReadToGrid_MS(System.String)
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: ReadToGrid_MS(String)
+  nameWithType: Crud.ReadToGrid_MS(String)
+  fullName: StoreManage.Crud.ReadToGrid_MS(System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: ReadToGrid_MS
+    path: CommonByKjs.cs
+    startLine: 482
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DataSet ReadToGrid_MS(string query)
+    parameters:
+    - id: query
+      type: System.String
+    return:
+      type: System.Data.DataSet
+    content.vb: Public Function ReadToGrid_MS(query As String) As DataSet
+  overload: StoreManage.Crud.ReadToGrid_MS*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Crud.ReadToGrid_MySql(System.String)
+  commentId: M:StoreManage.Crud.ReadToGrid_MySql(System.String)
+  id: ReadToGrid_MySql(System.String)
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: ReadToGrid_MySql(String)
+  nameWithType: Crud.ReadToGrid_MySql(String)
+  fullName: StoreManage.Crud.ReadToGrid_MySql(System.String)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: ReadToGrid_MySql
+    path: CommonByKjs.cs
+    startLine: 512
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DataSet ReadToGrid_MySql(string query)
+    parameters:
+    - id: query
+      type: System.String
+    return:
+      type: System.Data.DataSet
+    content.vb: Public Function ReadToGrid_MySql(query As String) As DataSet
+  overload: StoreManage.Crud.ReadToGrid_MySql*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Crud.Update_MS``1(System.String,``0)
+  commentId: M:StoreManage.Crud.Update_MS``1(System.String,``0)
+  id: Update_MS``1(System.String,``0)
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: Update_MS<T>(String, T)
+  nameWithType: Crud.Update_MS<T>(String, T)
+  fullName: StoreManage.Crud.Update_MS<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: Update_MS
+    path: CommonByKjs.cs
+    startLine: 542
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public int Update_MS<T>(string query, T t)
+    parameters:
+    - id: query
+      type: System.String
+    - id: t
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+    content.vb: Public Function Update_MS(Of T)(query As String, t As T) As Integer
+  overload: StoreManage.Crud.Update_MS*
+  nameWithType.vb: Crud.Update_MS(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.Crud.Update_MS(Of T)(System.String, T)
+  name.vb: Update_MS(Of T)(String, T)
+- uid: StoreManage.Crud.Update_MySql``1(System.String,``0)
+  commentId: M:StoreManage.Crud.Update_MySql``1(System.String,``0)
+  id: Update_MySql``1(System.String,``0)
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: Update_MySql<T>(String, T)
+  nameWithType: Crud.Update_MySql<T>(String, T)
+  fullName: StoreManage.Crud.Update_MySql<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: Update_MySql
+    path: CommonByKjs.cs
+    startLine: 558
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public int Update_MySql<T>(string query, T t)
+    parameters:
+    - id: query
+      type: System.String
+    - id: t
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+    content.vb: Public Function Update_MySql(Of T)(query As String, t As T) As Integer
+  overload: StoreManage.Crud.Update_MySql*
+  nameWithType.vb: Crud.Update_MySql(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.Crud.Update_MySql(Of T)(System.String, T)
+  name.vb: Update_MySql(Of T)(String, T)
+- uid: StoreManage.Crud.Delete_MS``1(System.String,``0)
+  commentId: M:StoreManage.Crud.Delete_MS``1(System.String,``0)
+  id: Delete_MS``1(System.String,``0)
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: Delete_MS<T>(String, T)
+  nameWithType: Crud.Delete_MS<T>(String, T)
+  fullName: StoreManage.Crud.Delete_MS<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: Delete_MS
+    path: CommonByKjs.cs
+    startLine: 575
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public int Delete_MS<T>(string query, T t)
+    parameters:
+    - id: query
+      type: System.String
+    - id: t
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+    content.vb: Public Function Delete_MS(Of T)(query As String, t As T) As Integer
+  overload: StoreManage.Crud.Delete_MS*
+  nameWithType.vb: Crud.Delete_MS(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.Crud.Delete_MS(Of T)(System.String, T)
+  name.vb: Delete_MS(Of T)(String, T)
+- uid: StoreManage.Crud.Delete_MySql``1(System.String,``0)
+  commentId: M:StoreManage.Crud.Delete_MySql``1(System.String,``0)
+  id: Delete_MySql``1(System.String,``0)
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: Delete_MySql<T>(String, T)
+  nameWithType: Crud.Delete_MySql<T>(String, T)
+  fullName: StoreManage.Crud.Delete_MySql<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: Delete_MySql
+    path: CommonByKjs.cs
+    startLine: 595
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public int Delete_MySql<T>(string query, T t)
+    parameters:
+    - id: query
+      type: System.String
+    - id: t
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+    content.vb: Public Function Delete_MySql(Of T)(query As String, t As T) As Integer
+  overload: StoreManage.Crud.Delete_MySql*
+  nameWithType.vb: Crud.Delete_MySql(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StoreManage.Crud.Delete_MySql(Of T)(System.String, T)
+  name.vb: Delete_MySql(Of T)(String, T)
+- uid: StoreManage.Crud.sqlTran(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlCommand)
+  commentId: M:StoreManage.Crud.sqlTran(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlCommand)
+  id: sqlTran(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlCommand)
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: sqlTran(SqlConnection, SqlCommand)
+  nameWithType: Crud.sqlTran(SqlConnection, SqlCommand)
+  fullName: StoreManage.Crud.sqlTran(System.Data.SqlClient.SqlConnection, System.Data.SqlClient.SqlCommand)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: sqlTran
+    path: CommonByKjs.cs
+    startLine: 624
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public int sqlTran(SqlConnection conn, SqlCommand sqlCmd)
+    parameters:
+    - id: conn
+      type: System.Data.SqlClient.SqlConnection
+    - id: sqlCmd
+      type: System.Data.SqlClient.SqlCommand
+    return:
+      type: System.Int32
+    content.vb: Public Function sqlTran(conn As SqlConnection, sqlCmd As SqlCommand) As Integer
+  overload: StoreManage.Crud.sqlTran*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StoreManage.Crud.sqlTran(MySql.Data.MySqlClient.MySqlConnection,MySql.Data.MySqlClient.MySqlCommand)
+  commentId: M:StoreManage.Crud.sqlTran(MySql.Data.MySqlClient.MySqlConnection,MySql.Data.MySqlClient.MySqlCommand)
+  id: sqlTran(MySql.Data.MySqlClient.MySqlConnection,MySql.Data.MySqlClient.MySqlCommand)
+  parent: StoreManage.Crud
+  langs:
+  - csharp
+  - vb
+  name: sqlTran(MySqlConnection, MySqlCommand)
+  nameWithType: Crud.sqlTran(MySqlConnection, MySqlCommand)
+  fullName: StoreManage.Crud.sqlTran(MySql.Data.MySqlClient.MySqlConnection, MySql.Data.MySqlClient.MySqlCommand)
+  type: Method
+  source:
+    remote:
+      path: StoreManage/CommonByKjs.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: sqlTran
+    path: CommonByKjs.cs
+    startLine: 650
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public int sqlTran(MySqlConnection conn, MySqlCommand mySqlCmd)
+    parameters:
+    - id: conn
+      type: MySql.Data.MySqlClient.MySqlConnection
+    - id: mySqlCmd
+      type: MySql.Data.MySqlClient.MySqlCommand
+    return:
+      type: System.Int32
+    content.vb: Public Function sqlTran(conn As MySqlConnection, mySqlCmd As MySqlCommand) As Integer
+  overload: StoreManage.Crud.sqlTran*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: StoreManage
+  commentId: N:StoreManage
+  name: StoreManage
+  nameWithType: StoreManage
+  fullName: StoreManage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StoreManage.Crud.#ctor*
+  commentId: Overload:StoreManage.Crud.#ctor
+  name: Crud
+  nameWithType: Crud.Crud
+  fullName: StoreManage.Crud.Crud
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StoreManage.Crud.Create_MS*
+  commentId: Overload:StoreManage.Crud.Create_MS
+  name: Create_MS
+  nameWithType: Crud.Create_MS
+  fullName: StoreManage.Crud.Create_MS
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: StoreManage.Crud.Create_MySql*
+  commentId: Overload:StoreManage.Crud.Create_MySql
+  name: Create_MySql
+  nameWithType: Crud.Create_MySql
+  fullName: StoreManage.Crud.Create_MySql
+- uid: StoreManage.Crud.Read_MS*
+  commentId: Overload:StoreManage.Crud.Read_MS
+  name: Read_MS
+  nameWithType: Crud.Read_MS
+  fullName: StoreManage.Crud.Read_MS
+- uid: StoreManage.Crud.Read_MySql*
+  commentId: Overload:StoreManage.Crud.Read_MySql
+  name: Read_MySql
+  nameWithType: Crud.Read_MySql
+  fullName: StoreManage.Crud.Read_MySql
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: StoreManage.Crud.ReadToGrid_MS*
+  commentId: Overload:StoreManage.Crud.ReadToGrid_MS
+  name: ReadToGrid_MS
+  nameWithType: Crud.ReadToGrid_MS
+  fullName: StoreManage.Crud.ReadToGrid_MS
+- uid: System.Data.DataSet
+  commentId: T:System.Data.DataSet
+  parent: System.Data
+  isExternal: true
+  name: DataSet
+  nameWithType: DataSet
+  fullName: System.Data.DataSet
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+- uid: StoreManage.Crud.ReadToGrid_MySql*
+  commentId: Overload:StoreManage.Crud.ReadToGrid_MySql
+  name: ReadToGrid_MySql
+  nameWithType: Crud.ReadToGrid_MySql
+  fullName: StoreManage.Crud.ReadToGrid_MySql
+- uid: StoreManage.Crud.Update_MS*
+  commentId: Overload:StoreManage.Crud.Update_MS
+  name: Update_MS
+  nameWithType: Crud.Update_MS
+  fullName: StoreManage.Crud.Update_MS
+- uid: StoreManage.Crud.Update_MySql*
+  commentId: Overload:StoreManage.Crud.Update_MySql
+  name: Update_MySql
+  nameWithType: Crud.Update_MySql
+  fullName: StoreManage.Crud.Update_MySql
+- uid: StoreManage.Crud.Delete_MS*
+  commentId: Overload:StoreManage.Crud.Delete_MS
+  name: Delete_MS
+  nameWithType: Crud.Delete_MS
+  fullName: StoreManage.Crud.Delete_MS
+- uid: StoreManage.Crud.Delete_MySql*
+  commentId: Overload:StoreManage.Crud.Delete_MySql
+  name: Delete_MySql
+  nameWithType: Crud.Delete_MySql
+  fullName: StoreManage.Crud.Delete_MySql
+- uid: StoreManage.Crud.sqlTran*
+  commentId: Overload:StoreManage.Crud.sqlTran
+  name: sqlTran
+  nameWithType: Crud.sqlTran
+  fullName: StoreManage.Crud.sqlTran
+- uid: System.Data.SqlClient.SqlConnection
+  commentId: T:System.Data.SqlClient.SqlConnection
+  parent: System.Data.SqlClient
+  isExternal: true
+  name: SqlConnection
+  nameWithType: SqlConnection
+  fullName: System.Data.SqlClient.SqlConnection
+- uid: System.Data.SqlClient.SqlCommand
+  commentId: T:System.Data.SqlClient.SqlCommand
+  parent: System.Data.SqlClient
+  isExternal: true
+  name: SqlCommand
+  nameWithType: SqlCommand
+  fullName: System.Data.SqlClient.SqlCommand
+- uid: System.Data.SqlClient
+  commentId: N:System.Data.SqlClient
+  isExternal: true
+  name: System.Data.SqlClient
+  nameWithType: System.Data.SqlClient
+  fullName: System.Data.SqlClient
+- uid: MySql.Data.MySqlClient.MySqlConnection
+  commentId: T:MySql.Data.MySqlClient.MySqlConnection
+  parent: MySql.Data.MySqlClient
+  isExternal: true
+  name: MySqlConnection
+  nameWithType: MySqlConnection
+  fullName: MySql.Data.MySqlClient.MySqlConnection
+- uid: MySql.Data.MySqlClient.MySqlCommand
+  commentId: T:MySql.Data.MySqlClient.MySqlCommand
+  parent: MySql.Data.MySqlClient
+  isExternal: true
+  name: MySqlCommand
+  nameWithType: MySqlCommand
+  fullName: MySql.Data.MySqlClient.MySqlCommand
+- uid: MySql.Data.MySqlClient
+  commentId: N:MySql.Data.MySqlClient
+  isExternal: true
+  name: MySql.Data.MySqlClient
+  nameWithType: MySql.Data.MySqlClient
+  fullName: MySql.Data.MySqlClient

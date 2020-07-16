@@ -1,0 +1,985 @@
+### YamlMime:ManagedReference
+items:
+- uid: StoreManage.UserControl1.employee
+  commentId: T:StoreManage.UserControl1.employee
+  id: UserControl1.employee
+  parent: StoreManage
+  children:
+  - StoreManage.UserControl1.employee.st_code
+  - StoreManage.UserControl1.employee.st_emp_addr1
+  - StoreManage.UserControl1.employee.st_emp_addr2
+  - StoreManage.UserControl1.employee.st_emp_birth
+  - StoreManage.UserControl1.employee.st_emp_code
+  - StoreManage.UserControl1.employee.st_emp_date
+  - StoreManage.UserControl1.employee.st_emp_dtc
+  - StoreManage.UserControl1.employee.st_emp_level
+  - StoreManage.UserControl1.employee.st_emp_member
+  - StoreManage.UserControl1.employee.st_emp_picture_Path
+  - StoreManage.UserControl1.employee.st_emp_sex
+  - StoreManage.UserControl1.employee.st_emp_state
+  - StoreManage.UserControl1.employee.st_emp_time
+  - StoreManage.UserControl1.employee.st_emp_Year
+  - StoreManage.UserControl1.employee.st_emp_zip
+  langs:
+  - csharp
+  - vb
+  name: UserControl1.employee
+  nameWithType: UserControl1.employee
+  fullName: StoreManage.UserControl1.employee
+  type: Class
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: employee
+    path: UserControl1.cs
+    startLine: 692
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public class employee
+    content.vb: Public Class employee
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StoreManage.UserControl1.employee.st_code
+  commentId: P:StoreManage.UserControl1.employee.st_code
+  id: st_code
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_code
+  nameWithType: UserControl1.employee.st_code
+  fullName: StoreManage.UserControl1.employee.st_code
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_code
+    path: UserControl1.cs
+    startLine: 694
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_code As String
+  overload: StoreManage.UserControl1.employee.st_code*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_member
+  commentId: P:StoreManage.UserControl1.employee.st_emp_member
+  id: st_emp_member
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_member
+  nameWithType: UserControl1.employee.st_emp_member
+  fullName: StoreManage.UserControl1.employee.st_emp_member
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_member
+    path: UserControl1.cs
+    startLine: 695
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_emp_member { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_emp_member As String
+  overload: StoreManage.UserControl1.employee.st_emp_member*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_birth
+  commentId: P:StoreManage.UserControl1.employee.st_emp_birth
+  id: st_emp_birth
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_birth
+  nameWithType: UserControl1.employee.st_emp_birth
+  fullName: StoreManage.UserControl1.employee.st_emp_birth
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_birth
+    path: UserControl1.cs
+    startLine: 697
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_emp_birth { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_emp_birth As String
+  overload: StoreManage.UserControl1.employee.st_emp_birth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_zip
+  commentId: P:StoreManage.UserControl1.employee.st_emp_zip
+  id: st_emp_zip
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_zip
+  nameWithType: UserControl1.employee.st_emp_zip
+  fullName: StoreManage.UserControl1.employee.st_emp_zip
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_zip
+    path: UserControl1.cs
+    startLine: 699
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_emp_zip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_emp_zip As String
+  overload: StoreManage.UserControl1.employee.st_emp_zip*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_addr1
+  commentId: P:StoreManage.UserControl1.employee.st_emp_addr1
+  id: st_emp_addr1
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_addr1
+  nameWithType: UserControl1.employee.st_emp_addr1
+  fullName: StoreManage.UserControl1.employee.st_emp_addr1
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_addr1
+    path: UserControl1.cs
+    startLine: 701
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_emp_addr1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_emp_addr1 As String
+  overload: StoreManage.UserControl1.employee.st_emp_addr1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_sex
+  commentId: P:StoreManage.UserControl1.employee.st_emp_sex
+  id: st_emp_sex
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_sex
+  nameWithType: UserControl1.employee.st_emp_sex
+  fullName: StoreManage.UserControl1.employee.st_emp_sex
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_sex
+    path: UserControl1.cs
+    startLine: 703
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public int st_emp_sex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property st_emp_sex As Integer
+  overload: StoreManage.UserControl1.employee.st_emp_sex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_code
+  commentId: P:StoreManage.UserControl1.employee.st_emp_code
+  id: st_emp_code
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_code
+  nameWithType: UserControl1.employee.st_emp_code
+  fullName: StoreManage.UserControl1.employee.st_emp_code
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_code
+    path: UserControl1.cs
+    startLine: 706
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_emp_code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_emp_code As String
+  overload: StoreManage.UserControl1.employee.st_emp_code*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_level
+  commentId: P:StoreManage.UserControl1.employee.st_emp_level
+  id: st_emp_level
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_level
+  nameWithType: UserControl1.employee.st_emp_level
+  fullName: StoreManage.UserControl1.employee.st_emp_level
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_level
+    path: UserControl1.cs
+    startLine: 708
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public char st_emp_level { get; set; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public Property st_emp_level As Char
+  overload: StoreManage.UserControl1.employee.st_emp_level*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_addr2
+  commentId: P:StoreManage.UserControl1.employee.st_emp_addr2
+  id: st_emp_addr2
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_addr2
+  nameWithType: UserControl1.employee.st_emp_addr2
+  fullName: StoreManage.UserControl1.employee.st_emp_addr2
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_addr2
+    path: UserControl1.cs
+    startLine: 710
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_emp_addr2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_emp_addr2 As String
+  overload: StoreManage.UserControl1.employee.st_emp_addr2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_Year
+  commentId: P:StoreManage.UserControl1.employee.st_emp_Year
+  id: st_emp_Year
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_Year
+  nameWithType: UserControl1.employee.st_emp_Year
+  fullName: StoreManage.UserControl1.employee.st_emp_Year
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_Year
+    path: UserControl1.cs
+    startLine: 712
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_emp_Year { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_emp_Year As String
+  overload: StoreManage.UserControl1.employee.st_emp_Year*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_time
+  commentId: P:StoreManage.UserControl1.employee.st_emp_time
+  id: st_emp_time
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_time
+  nameWithType: UserControl1.employee.st_emp_time
+  fullName: StoreManage.UserControl1.employee.st_emp_time
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_time
+    path: UserControl1.cs
+    startLine: 714
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_emp_time { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_emp_time As String
+  overload: StoreManage.UserControl1.employee.st_emp_time*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_date
+  commentId: P:StoreManage.UserControl1.employee.st_emp_date
+  id: st_emp_date
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_date
+  nameWithType: UserControl1.employee.st_emp_date
+  fullName: StoreManage.UserControl1.employee.st_emp_date
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_date
+    path: UserControl1.cs
+    startLine: 716
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public DateTime st_emp_date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property st_emp_date As Date
+  overload: StoreManage.UserControl1.employee.st_emp_date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_state
+  commentId: P:StoreManage.UserControl1.employee.st_emp_state
+  id: st_emp_state
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_state
+  nameWithType: UserControl1.employee.st_emp_state
+  fullName: StoreManage.UserControl1.employee.st_emp_state
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_state
+    path: UserControl1.cs
+    startLine: 718
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_emp_state { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_emp_state As String
+  overload: StoreManage.UserControl1.employee.st_emp_state*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_dtc
+  commentId: P:StoreManage.UserControl1.employee.st_emp_dtc
+  id: st_emp_dtc
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_dtc
+  nameWithType: UserControl1.employee.st_emp_dtc
+  fullName: StoreManage.UserControl1.employee.st_emp_dtc
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_dtc
+    path: UserControl1.cs
+    startLine: 720
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_emp_dtc { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_emp_dtc As String
+  overload: StoreManage.UserControl1.employee.st_emp_dtc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StoreManage.UserControl1.employee.st_emp_picture_Path
+  commentId: P:StoreManage.UserControl1.employee.st_emp_picture_Path
+  id: st_emp_picture_Path
+  parent: StoreManage.UserControl1.employee
+  langs:
+  - csharp
+  - vb
+  name: st_emp_picture_Path
+  nameWithType: UserControl1.employee.st_emp_picture_Path
+  fullName: StoreManage.UserControl1.employee.st_emp_picture_Path
+  type: Property
+  source:
+    remote:
+      path: StoreManage/UserControl1.cs
+      branch: kjs
+      repo: http://192.168.0.78:2020/Project_3.git
+    id: st_emp_picture_Path
+    path: UserControl1.cs
+    startLine: 722
+  assemblies:
+  - StoreManage
+  namespace: StoreManage
+  syntax:
+    content: public string st_emp_picture_Path { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property st_emp_picture_Path As String
+  overload: StoreManage.UserControl1.employee.st_emp_picture_Path*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: StoreManage
+  commentId: N:StoreManage
+  name: StoreManage
+  nameWithType: StoreManage
+  fullName: StoreManage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StoreManage.UserControl1.employee.st_code*
+  commentId: Overload:StoreManage.UserControl1.employee.st_code
+  name: st_code
+  nameWithType: UserControl1.employee.st_code
+  fullName: StoreManage.UserControl1.employee.st_code
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StoreManage.UserControl1.employee.st_emp_member*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_member
+  name: st_emp_member
+  nameWithType: UserControl1.employee.st_emp_member
+  fullName: StoreManage.UserControl1.employee.st_emp_member
+- uid: StoreManage.UserControl1.employee.st_emp_birth*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_birth
+  name: st_emp_birth
+  nameWithType: UserControl1.employee.st_emp_birth
+  fullName: StoreManage.UserControl1.employee.st_emp_birth
+- uid: StoreManage.UserControl1.employee.st_emp_zip*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_zip
+  name: st_emp_zip
+  nameWithType: UserControl1.employee.st_emp_zip
+  fullName: StoreManage.UserControl1.employee.st_emp_zip
+- uid: StoreManage.UserControl1.employee.st_emp_addr1*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_addr1
+  name: st_emp_addr1
+  nameWithType: UserControl1.employee.st_emp_addr1
+  fullName: StoreManage.UserControl1.employee.st_emp_addr1
+- uid: StoreManage.UserControl1.employee.st_emp_sex*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_sex
+  name: st_emp_sex
+  nameWithType: UserControl1.employee.st_emp_sex
+  fullName: StoreManage.UserControl1.employee.st_emp_sex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: StoreManage.UserControl1.employee.st_emp_code*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_code
+  name: st_emp_code
+  nameWithType: UserControl1.employee.st_emp_code
+  fullName: StoreManage.UserControl1.employee.st_emp_code
+- uid: StoreManage.UserControl1.employee.st_emp_level*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_level
+  name: st_emp_level
+  nameWithType: UserControl1.employee.st_emp_level
+  fullName: StoreManage.UserControl1.employee.st_emp_level
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: StoreManage.UserControl1.employee.st_emp_addr2*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_addr2
+  name: st_emp_addr2
+  nameWithType: UserControl1.employee.st_emp_addr2
+  fullName: StoreManage.UserControl1.employee.st_emp_addr2
+- uid: StoreManage.UserControl1.employee.st_emp_Year*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_Year
+  name: st_emp_Year
+  nameWithType: UserControl1.employee.st_emp_Year
+  fullName: StoreManage.UserControl1.employee.st_emp_Year
+- uid: StoreManage.UserControl1.employee.st_emp_time*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_time
+  name: st_emp_time
+  nameWithType: UserControl1.employee.st_emp_time
+  fullName: StoreManage.UserControl1.employee.st_emp_time
+- uid: StoreManage.UserControl1.employee.st_emp_date*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_date
+  name: st_emp_date
+  nameWithType: UserControl1.employee.st_emp_date
+  fullName: StoreManage.UserControl1.employee.st_emp_date
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: StoreManage.UserControl1.employee.st_emp_state*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_state
+  name: st_emp_state
+  nameWithType: UserControl1.employee.st_emp_state
+  fullName: StoreManage.UserControl1.employee.st_emp_state
+- uid: StoreManage.UserControl1.employee.st_emp_dtc*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_dtc
+  name: st_emp_dtc
+  nameWithType: UserControl1.employee.st_emp_dtc
+  fullName: StoreManage.UserControl1.employee.st_emp_dtc
+- uid: StoreManage.UserControl1.employee.st_emp_picture_Path*
+  commentId: Overload:StoreManage.UserControl1.employee.st_emp_picture_Path
+  name: st_emp_picture_Path
+  nameWithType: UserControl1.employee.st_emp_picture_Path
+  fullName: StoreManage.UserControl1.employee.st_emp_picture_Path
